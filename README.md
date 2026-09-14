@@ -6,7 +6,7 @@ The repository contains the archived robots.txt responses and census files, dete
 
 ## Reproduce the analysis and figures
 
-From this directory, run:
+From this directory, run: 
 
 ```sh
 ./reproduce.sh
