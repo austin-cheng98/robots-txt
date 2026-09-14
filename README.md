@@ -1,12 +1,10 @@
 # Whose Robots.txt? Consent-Infrastructure Inequality Across the Languages of Web Corpora
 
-This repository contains the current paper and its reproducible analysis.
-
-The repository contains the archived robots.txt responses and census files, deterministic analysis, the figure generators used by the paper, and the manuscript source snapshot. Bibliography data, reviewer notes, LaTeX formatting files, build logs, and the compiled manuscript PDF are intentionally not included.
+The repository contains the archived robots.txt responses and census files, deterministic analysis, the figure generators used by the paper, and the manuscript source snapshot.
 
 ## Reproduce the analysis and figures
 
-From this directory, run:
+From this directory, run: 
 
 ```sh
 ./reproduce.sh
