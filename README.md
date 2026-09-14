@@ -34,3 +34,7 @@ The analysis itself uses only the Python standard library; Matplotlib is needed 
 - `data/` — archived robots responses, censuses, and validation inputs
 - `figures/` — generated figure outputs
 - `paper/main.tex` — manuscript source snapshot
+
+## Contact
+
+For questions, concerns, or comments, please reach out to Gary Zhang (zhanggary607@gmail.com).
