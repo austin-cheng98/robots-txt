@@ -34,5 +34,3 @@ The analysis itself uses only the Python standard library; Matplotlib is needed 
 - `data/` — archived robots responses, censuses, and validation inputs
 - `figures/` — generated figure outputs
 - `paper/main.tex` — manuscript source snapshot
-
-The repository does not include bibliography data, reviewer notes, LaTeX formatting files, build logs, or the compiled manuscript PDF.
