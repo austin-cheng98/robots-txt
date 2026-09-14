@@ -5,7 +5,7 @@ This repository contains the current paper and its reproducible analysis. It is 
 Authors: Austin Cheng and Gary Zhang (equal contribution)  
 William A. Shine Great Neck South High School
 
-GitHub: https://github.com/austin-cheng98/whose-robots-txt-consent-infrastructure-inequality
+GitHub: https://github.com/austin-cheng98/robots-txt
 
 The repository contains the archived robots.txt responses and census files, deterministic analysis, the figure generators used by the paper, ACL LaTeX sources, bibliography, reviewer response notes, and the compiled nine-page paper.
 
