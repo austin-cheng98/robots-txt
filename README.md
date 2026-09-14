@@ -37,4 +37,4 @@ The analysis itself uses only the Python standard library; Matplotlib is needed 
 
 ## Contact
 
-For questions, concerns, or comments, please reach out to Gary Zhang (zhanggary607@gmail.com).
+For questions, comments, or concerns, please reach out to Gary Zhang (zhanggary607@gmail.com).
