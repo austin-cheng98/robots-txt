@@ -1,0 +1,6100 @@
+{
+ "meta": {
+  "seed": 20260811,
+  "n_boot": 2000,
+  "n_head": 175,
+  "census_cap": 20000,
+  "langs": {
+   "eng_Latn": "high",
+   "deu_Latn": "high",
+   "jpn_Jpan": "high",
+   "fra_Latn": "high",
+   "ind_Latn": "mid",
+   "tur_Latn": "mid",
+   "vie_Latn": "mid",
+   "tha_Thai": "mid",
+   "azj_Latn": "mid",
+   "swh_Latn": "low",
+   "sun_Latn": "low",
+   "yor_Latn": "low",
+   "uig_Arab": "low",
+   "gle_Latn": "low"
+  },
+  "ai_agents": [
+   "gptbot",
+   "chatgpt-user",
+   "ccbot",
+   "google-extended",
+   "claudebot",
+   "anthropic-ai",
+   "claude-web",
+   "perplexitybot",
+   "bytespider",
+   "cohere-ai",
+   "applebot-extended",
+   "meta-externalagent",
+   "omgilibot",
+   "diffbot",
+   "ai2bot"
+  ],
+  "conventional_agents": [
+   "googlebot",
+   "bingbot",
+   "yandex",
+   "baiduspider",
+   "duckduckbot",
+   "slurp",
+   "applebot",
+   "ahrefsbot",
+   "semrushbot",
+   "mj12bot",
+   "dotbot",
+   "petalbot",
+   "facebookexternalhit",
+   "twitterbot",
+   "linkedinbot"
+  ],
+  "generated_by": "analysis_revision.py"
+ },
+ "baseline_replication": {
+  "per_lang": {
+   "eng_Latn": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 272,
+    "reach_rate": 0.7771428571428571,
+    "optout_domain": 0.46691176470588236,
+    "optout_domain_ci95": [
+     0.40808823529411764,
+     0.5294117647058824
+    ],
+    "names_ai": 0.49264705882352944,
+    "cond_block": 0.9477611940298507,
+    "n_named": 134,
+    "sample_mass_doc": 0.6244902854401535,
+    "wildcard": 0.09558823529411764
+   },
+   "deu_Latn": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 254,
+    "reach_rate": 0.7257142857142858,
+    "optout_domain": 0.2992125984251969,
+    "optout_domain_ci95": [
+     0.2440944881889764,
+     0.3543307086614173
+    ],
+    "names_ai": 0.4015748031496063,
+    "cond_block": 0.7450980392156863,
+    "n_named": 102,
+    "sample_mass_doc": 0.5266101078192925,
+    "wildcard": 0.13385826771653545
+   },
+   "jpn_Jpan": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 226,
+    "reach_rate": 0.6457142857142857,
+    "optout_domain": 0.12831858407079647,
+    "optout_domain_ci95": [
+     0.08849557522123894,
+     0.17256637168141592
+    ],
+    "names_ai": 0.1592920353982301,
+    "cond_block": 0.8055555555555556,
+    "n_named": 36,
+    "sample_mass_doc": 0.2357448264067043,
+    "wildcard": 0.03982300884955752
+   },
+   "fra_Latn": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 269,
+    "reach_rate": 0.7685714285714286,
+    "optout_domain": 0.23048327137546468,
+    "optout_domain_ci95": [
+     0.1821561338289963,
+     0.2788104089219331
+    ],
+    "names_ai": 0.26394052044609667,
+    "cond_block": 0.8732394366197183,
+    "n_named": 71,
+    "sample_mass_doc": 0.38586868099941896,
+    "wildcard": 0.06691449814126393
+   },
+   "ind_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 225,
+    "reach_rate": 0.6428571428571429,
+    "optout_domain": 0.13777777777777778,
+    "optout_domain_ci95": [
+     0.09333333333333334,
+     0.18666666666666668
+    ],
+    "names_ai": 0.27555555555555555,
+    "cond_block": 0.5,
+    "n_named": 62,
+    "sample_mass_doc": 0.15950447513484678,
+    "wildcard": 0.08888888888888889
+   },
+   "tur_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 238,
+    "reach_rate": 0.68,
+    "optout_domain": 0.1092436974789916,
+    "optout_domain_ci95": [
+     0.07142857142857142,
+     0.14705882352941177
+    ],
+    "names_ai": 0.21428571428571427,
+    "cond_block": 0.5098039215686274,
+    "n_named": 51,
+    "sample_mass_doc": 0.14577736245765682,
+    "wildcard": 0.08823529411764706
+   },
+   "vie_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 213,
+    "reach_rate": 0.6085714285714285,
+    "optout_domain": 0.07981220657276995,
+    "optout_domain_ci95": [
+     0.046948356807511735,
+     0.11267605633802817
+    ],
+    "names_ai": 0.0892018779342723,
+    "cond_block": 0.8947368421052632,
+    "n_named": 19,
+    "sample_mass_doc": 0.08273742506770532,
+    "wildcard": 0.07981220657276995
+   },
+   "tha_Thai": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 214,
+    "reach_rate": 0.6114285714285714,
+    "optout_domain": 0.1261682242990654,
+    "optout_domain_ci95": [
+     0.08411214953271028,
+     0.17289719626168223
+    ],
+    "names_ai": 0.16822429906542055,
+    "cond_block": 0.75,
+    "n_named": 36,
+    "sample_mass_doc": 0.17334708080938266,
+    "wildcard": 0.11682242990654206
+   },
+   "azj_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 222,
+    "reach_rate": 0.6342857142857142,
+    "optout_domain": 0.1036036036036036,
+    "optout_domain_ci95": [
+     0.06756756756756757,
+     0.14414414414414414
+    ],
+    "names_ai": 0.13063063063063063,
+    "cond_block": 0.7931034482758621,
+    "n_named": 29,
+    "sample_mass_doc": 0.10530252037992671,
+    "wildcard": 0.11261261261261261
+   },
+   "swh_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 203,
+    "reach_rate": 0.58,
+    "optout_domain": 0.054187192118226604,
+    "optout_domain_ci95": [
+     0.024630541871921183,
+     0.08866995073891626
+    ],
+    "names_ai": 0.06403940886699508,
+    "cond_block": 0.8461538461538461,
+    "n_named": 13,
+    "sample_mass_doc": 0.1112436310898231,
+    "wildcard": 0.054187192118226604
+   },
+   "sun_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 163,
+    "reach_rate": 0.4657142857142857,
+    "optout_domain": 0.12269938650306748,
+    "optout_domain_ci95": [
+     0.0736196319018405,
+     0.17791411042944785
+    ],
+    "names_ai": 0.12883435582822086,
+    "cond_block": 0.9523809523809523,
+    "n_named": 21,
+    "sample_mass_doc": 0.08204270583387867,
+    "wildcard": 0.17177914110429449
+   },
+   "yor_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 151,
+    "reach_rate": 0.43142857142857144,
+    "optout_domain": 0.11258278145695365,
+    "optout_domain_ci95": [
+     0.06622516556291391,
+     0.16556291390728478
+    ],
+    "names_ai": 0.11258278145695365,
+    "cond_block": 1.0,
+    "n_named": 17,
+    "sample_mass_doc": 0.17429227237949502,
+    "wildcard": 0.10596026490066225
+   },
+   "uig_Arab": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 138,
+    "reach_rate": 0.3942857142857143,
+    "optout_domain": 0.10869565217391304,
+    "optout_domain_ci95": [
+     0.057971014492753624,
+     0.16666666666666666
+    ],
+    "names_ai": 0.10869565217391304,
+    "cond_block": 1.0,
+    "n_named": 15,
+    "sample_mass_doc": 0.10764368713875437,
+    "wildcard": 0.16666666666666666
+   },
+   "gle_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 202,
+    "reach_rate": 0.5771428571428572,
+    "optout_domain": 0.10396039603960396,
+    "optout_domain_ci95": [
+     0.06435643564356436,
+     0.1485148514851485
+    ],
+    "names_ai": 0.12376237623762376,
+    "cond_block": 0.84,
+    "n_named": 25,
+    "sample_mass_doc": 0.13549172190732378,
+    "wildcard": 0.07425742574257425
+   }
+  },
+  "pooled": {
+   "high": {
+    "n": 1021,
+    "optout": 0.28795298726738494,
+    "names": 0.33594515181194906,
+    "wildcard_inclusive": 0.32908912830558273
+   },
+   "mid": {
+    "n": 1112,
+    "optout": 0.11151079136690648,
+    "names": 0.17715827338129497,
+    "wildcard_inclusive": 0.13129496402877697
+   },
+   "low": {
+    "n": 857,
+    "optout": 0.09801633605600933,
+    "names": 0.10618436406067679,
+    "wildcard_inclusive": 0.147024504084014
+   }
+  },
+  "tier_means_sample_mass_doc": {
+   "high": 0.4431784751663923,
+   "mid": 0.13333377276990366,
+   "low": 0.122142803669855
+  },
+  "cluster_high_vs_low_optout_domain": {
+   "gap_unweighted": 0.18080647298598213,
+   "p_unweighted": 0.007936507936507936,
+   "gap_weighted": 0.1899366512113756,
+   "p_weighted": 0.031746031746031744,
+   "n_splits": 126
+  },
+  "cluster_high_vs_rest_optout_domain": {
+   "gap_unweighted": 0.1753584628419378,
+   "p_unweighted": 0.001998001998001998,
+   "gap_weighted": 0.1823156078869888,
+   "p_weighted": 0.005994005994005994,
+   "n_splits": 1001
+  },
+  "spearman_optout_domain": {
+   "rho": 0.689538470377084,
+   "perm_p": 0.0093,
+   "n_perm": 20000
+  }
+ },
+ "A_design_weights": {
+  "per_lang": {
+   "eng_Latn": {
+    "tier": "high",
+    "n_domains_census": 137447,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 117447,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.10948118178624641,
+    "head175_share_of_retained_tokmass": 0.1217726433288491,
+    "retained_docmass_share_of_streamed_docs": 0.412765,
+    "retained_docmass_total": 82553,
+    "sample_mass_doc_any15": 0.6244902854401535,
+    "sample_mass_tok_any15": 0.5872594197151976,
+    "design_wt_mass_doc_any15": 0.3916776479395373,
+    "design_wt_mass_tok_any15": 0.4141513753803526,
+    "design_wt_mass_doc_any15_denom_sampled": 0.2650827554017873,
+    "design_wt_mass_doc_any15_denom_census": 0.2643790742224476,
+    "head_only_census_mass_doc_any15": 0.6390853966649823,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.5597477317990706,
+    "head_only_census_mass_tok_any15": 0.5964489707435807
+   },
+   "deu_Latn": {
+    "tier": "high",
+    "n_domains_census": 54729,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 34729,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.36025073969419924,
+    "head175_share_of_retained_tokmass": 0.3387847486771446,
+    "retained_docmass_share_of_streamed_docs": 0.826355,
+    "retained_docmass_total": 165271,
+    "sample_mass_doc_any15": 0.5266101078192925,
+    "sample_mass_tok_any15": 0.524108317636173,
+    "design_wt_mass_doc_any15": 0.4260173749410143,
+    "design_wt_mass_tok_any15": 0.4308469534663488,
+    "design_wt_mass_doc_any15_denom_sampled": 0.3053710112207066,
+    "design_wt_mass_doc_any15_denom_census": 0.2567419571491671,
+    "head_only_census_mass_doc_any15": 0.5283328506612608,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.45961470632694534,
+    "head_only_census_mass_tok_any15": 0.5255439745039046
+   },
+   "jpn_Jpan": {
+    "tier": "high",
+    "n_domains_census": 102783,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 82783,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.3319482318313639,
+    "head175_share_of_retained_tokmass": 0.25985758848459956,
+    "retained_docmass_share_of_streamed_docs": 0.577575,
+    "retained_docmass_total": 115515,
+    "sample_mass_doc_any15": 0.2357448264067043,
+    "sample_mass_tok_any15": 0.16933042996402006,
+    "design_wt_mass_doc_any15": 0.14268795461745695,
+    "design_wt_mass_tok_any15": 0.06858536269572768,
+    "design_wt_mass_doc_any15_denom_sampled": 0.09134080759603566,
+    "design_wt_mass_doc_any15_denom_census": 0.08299231392336186,
+    "head_only_census_mass_doc_any15": 0.2376717306294771,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.17911070543747556,
+    "head_only_census_mass_tok_any15": 0.17231409369031253
+   },
+   "fra_Latn": {
+    "tier": "high",
+    "n_domains_census": 59428,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 39428,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.31498019580001496,
+    "head175_share_of_retained_tokmass": 0.3428111912644652,
+    "retained_docmass_share_of_streamed_docs": 0.80286,
+    "retained_docmass_total": 160572,
+    "sample_mass_doc_any15": 0.38586868099941896,
+    "sample_mass_tok_any15": 0.2732605527187735,
+    "design_wt_mass_doc_any15": 0.2709078128259261,
+    "design_wt_mass_tok_any15": 0.1905499739148708,
+    "design_wt_mass_doc_any15_denom_sampled": 0.20539387224519792,
+    "design_wt_mass_doc_any15_denom_census": 0.19989430642595574,
+    "head_only_census_mass_doc_any15": 0.38873279342667577,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.32552345927990983,
+    "head_only_census_mass_tok_any15": 0.2750648066187005
+   },
+   "ind_Latn": {
+    "tier": "mid",
+    "n_domains_census": 92687,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 72687,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.18299440836488554,
+    "head175_share_of_retained_tokmass": 0.16224699698364314,
+    "retained_docmass_share_of_streamed_docs": 0.598215,
+    "retained_docmass_total": 119643,
+    "sample_mass_doc_any15": 0.15950447513484678,
+    "sample_mass_tok_any15": 0.12047264458980354,
+    "design_wt_mass_doc_any15": 0.0835273760914213,
+    "design_wt_mass_tok_any15": 0.056154942368479226,
+    "design_wt_mass_doc_any15_denom_sampled": 0.04505248415437408,
+    "design_wt_mass_doc_any15_denom_census": 0.04501606565245892,
+    "head_only_census_mass_doc_any15": 0.16215723232200402,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.12181419567004659,
+    "head_only_census_mass_tok_any15": 0.12314790247509504
+   },
+   "tur_Latn": {
+    "tier": "mid",
+    "n_domains_census": 51349,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 31349,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.3817113447296488,
+    "head175_share_of_retained_tokmass": 0.3294308884253564,
+    "retained_docmass_share_of_streamed_docs": 0.843255,
+    "retained_docmass_total": 168651,
+    "sample_mass_doc_any15": 0.14577736245765682,
+    "sample_mass_tok_any15": 0.15476607119210173,
+    "design_wt_mass_doc_any15": 0.08831894325678817,
+    "design_wt_mass_tok_any15": 0.08585467611424999,
+    "design_wt_mass_doc_any15_denom_sampled": 0.05980023903022029,
+    "design_wt_mass_doc_any15_denom_census": 0.06170985390794346,
+    "head_only_census_mass_doc_any15": 0.14696498207744121,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.11591276252019386,
+    "head_only_census_mass_tok_any15": 0.1563929494387844
+   },
+   "vie_Latn": {
+    "tier": "mid",
+    "n_domains_census": 67868,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 47868,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.28321251508807344,
+    "head175_share_of_retained_tokmass": 0.24785766520042557,
+    "retained_docmass_share_of_streamed_docs": 0.733195,
+    "retained_docmass_total": 146639,
+    "sample_mass_doc_any15": 0.08273742506770532,
+    "sample_mass_tok_any15": 0.09699451261878182,
+    "design_wt_mass_doc_any15": 0.0624061117837559,
+    "design_wt_mass_tok_any15": 0.050440155958983705,
+    "design_wt_mass_doc_any15_denom_sampled": 0.03829443957697748,
+    "design_wt_mass_doc_any15_denom_census": 0.039216813301470185,
+    "head_only_census_mass_doc_any15": 0.08325344054430184,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.0648206116060679,
+    "head_only_census_mass_tok_any15": 0.09854413821904609
+   },
+   "tha_Thai": {
+    "tier": "mid",
+    "n_domains_census": 68925,
+    "N_retained": 20000,
+    "cap_bound": true,
+    "domains_dropped_by_cap": 48925,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 113.28571428571429,
+    "tail_inclusion_prob": 0.008827238335435058,
+    "head175_share_of_retained_docmass": 0.2468979575085161,
+    "head175_share_of_retained_tokmass": 0.21887138957291516,
+    "retained_docmass_share_of_streamed_docs": 0.73097,
+    "retained_docmass_total": 146194,
+    "sample_mass_doc_any15": 0.17334708080938266,
+    "sample_mass_tok_any15": 0.1341544805420283,
+    "design_wt_mass_doc_any15": 0.16295862662798066,
+    "design_wt_mass_tok_any15": 0.15112082588851716,
+    "design_wt_mass_doc_any15_denom_sampled": 0.10660727515084137,
+    "design_wt_mass_doc_any15_denom_census": 0.11207026280148298,
+    "head_only_census_mass_doc_any15": 0.1736528914751619,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.14633605762570992,
+    "head_only_census_mass_tok_any15": 0.13363662885917138
+   },
+   "azj_Latn": {
+    "tier": "mid",
+    "n_domains_census": 14838,
+    "N_retained": 14838,
+    "cap_bound": false,
+    "domains_dropped_by_cap": 0,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 83.78857142857143,
+    "tail_inclusion_prob": 0.011934801882288754,
+    "head175_share_of_retained_docmass": 0.572595,
+    "head175_share_of_retained_tokmass": 0.4169797467211334,
+    "retained_docmass_share_of_streamed_docs": 1.0,
+    "retained_docmass_total": 200000,
+    "sample_mass_doc_any15": 0.10530252037992671,
+    "sample_mass_tok_any15": 0.08008608625561699,
+    "design_wt_mass_doc_any15": 0.09504496872501922,
+    "design_wt_mass_tok_any15": 0.09241820229487312,
+    "design_wt_mass_doc_any15_denom_sampled": 0.05795625877062583,
+    "design_wt_mass_doc_any15_denom_census": 0.060039542857142844,
+    "head_only_census_mass_doc_any15": 0.10549900212127679,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.0733939346309346,
+    "head_only_census_mass_tok_any15": 0.07980819679150405
+   },
+   "swh_Latn": {
+    "tier": "low",
+    "n_domains_census": 9225,
+    "N_retained": 9225,
+    "cap_bound": false,
+    "domains_dropped_by_cap": 0,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 51.714285714285715,
+    "tail_inclusion_prob": 0.019337016574585635,
+    "head175_share_of_retained_docmass": 0.685875,
+    "head175_share_of_retained_tokmass": 0.6137957179108392,
+    "retained_docmass_share_of_streamed_docs": 1.0,
+    "retained_docmass_total": 200000,
+    "sample_mass_doc_any15": 0.1112436310898231,
+    "sample_mass_tok_any15": 0.10291837863442777,
+    "design_wt_mass_doc_any15": 0.09388697860124538,
+    "design_wt_mass_tok_any15": 0.08614102887444045,
+    "design_wt_mass_doc_any15_denom_sampled": 0.06526322602951105,
+    "design_wt_mass_doc_any15_denom_census": 0.059055714285714295,
+    "head_only_census_mass_doc_any15": 0.11165606559889647,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.08497175141242938,
+    "head_only_census_mass_tok_any15": 0.10332894235860045
+   },
+   "sun_Latn": {
+    "tier": "low",
+    "n_domains_census": 10339,
+    "N_retained": 10339,
+    "cap_bound": false,
+    "domains_dropped_by_cap": 0,
+    "docs_streamed": 106542,
+    "docs_cap_bound": false,
+    "tail_weight": 58.08,
+    "tail_inclusion_prob": 0.01721763085399449,
+    "head175_share_of_retained_docmass": 0.5521202905896266,
+    "head175_share_of_retained_tokmass": 0.6213833680239711,
+    "retained_docmass_share_of_streamed_docs": 1.0,
+    "retained_docmass_total": 106542,
+    "sample_mass_doc_any15": 0.08204270583387867,
+    "sample_mass_tok_any15": 0.09069984504022753,
+    "design_wt_mass_doc_any15": 0.07710612336600002,
+    "design_wt_mass_tok_any15": 0.08875776073022033,
+    "design_wt_mass_doc_any15_denom_sampled": 0.04066290192308963,
+    "design_wt_mass_doc_any15_denom_census": 0.036593268382421947,
+    "head_only_census_mass_doc_any15": 0.08214911426902861,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.057391540867673056,
+    "head_only_census_mass_tok_any15": 0.09073936141760484
+   },
+   "yor_Latn": {
+    "tier": "low",
+    "n_domains_census": 5641,
+    "N_retained": 5641,
+    "cap_bound": false,
+    "domains_dropped_by_cap": 0,
+    "docs_streamed": 79999,
+    "docs_cap_bound": false,
+    "tail_weight": 31.234285714285715,
+    "tail_inclusion_prob": 0.03201609952433224,
+    "head175_share_of_retained_docmass": 0.6931461643270541,
+    "head175_share_of_retained_tokmass": 0.7269077976176646,
+    "retained_docmass_share_of_streamed_docs": 1.0,
+    "retained_docmass_total": 79999,
+    "sample_mass_doc_any15": 0.17429227237949502,
+    "sample_mass_tok_any15": 0.13546092146106423,
+    "design_wt_mass_doc_any15": 0.15434074464624095,
+    "design_wt_mass_tok_any15": 0.11768458284585406,
+    "design_wt_mass_doc_any15_denom_sampled": 0.09251184152802086,
+    "design_wt_mass_doc_any15_denom_census": 0.08807160089501119,
+    "head_only_census_mass_doc_any15": 0.17506474857040286,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.12311770752556311,
+    "head_only_census_mass_tok_any15": 0.1361703177899927
+   },
+   "uig_Arab": {
+    "tier": "low",
+    "n_domains_census": 3453,
+    "N_retained": 3453,
+    "cap_bound": false,
+    "domains_dropped_by_cap": 0,
+    "docs_streamed": 165637,
+    "docs_cap_bound": false,
+    "tail_weight": 18.731428571428573,
+    "tail_inclusion_prob": 0.05338621110433191,
+    "head175_share_of_retained_docmass": 0.8594335806613257,
+    "head175_share_of_retained_tokmass": 0.8735271312018691,
+    "retained_docmass_share_of_streamed_docs": 1.0,
+    "retained_docmass_total": 165637,
+    "sample_mass_doc_any15": 0.10764368713875437,
+    "sample_mass_tok_any15": 0.132315156020985,
+    "design_wt_mass_doc_any15": 0.12277755501417803,
+    "design_wt_mass_tok_any15": 0.17253860471256377,
+    "design_wt_mass_doc_any15_denom_sampled": 0.06499939073389153,
+    "design_wt_mass_doc_any15_denom_census": 0.06628581088248915,
+    "head_only_census_mass_doc_any15": 0.1067226586540202,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.06212681062702839,
+    "head_only_census_mass_tok_any15": 0.1298415914114051
+   },
+   "gle_Latn": {
+    "tier": "low",
+    "n_domains_census": 14487,
+    "N_retained": 14487,
+    "cap_bound": false,
+    "domains_dropped_by_cap": 0,
+    "docs_streamed": 200000,
+    "docs_cap_bound": true,
+    "tail_weight": 81.78285714285714,
+    "tail_inclusion_prob": 0.01222750139742873,
+    "head175_share_of_retained_docmass": 0.54027,
+    "head175_share_of_retained_tokmass": 0.5327385356976498,
+    "retained_docmass_share_of_streamed_docs": 1.0,
+    "retained_docmass_total": 200000,
+    "sample_mass_doc_any15": 0.13549172190732378,
+    "sample_mass_tok_any15": 0.0950168038988094,
+    "design_wt_mass_doc_any15": 0.12332748137788763,
+    "design_wt_mass_tok_any15": 0.09720620972355705,
+    "design_wt_mass_doc_any15_denom_sampled": 0.08126709573294214,
+    "design_wt_mass_doc_any15_denom_census": 0.08810377142857141,
+    "head_only_census_mass_doc_any15": 0.13572288121024584,
+    "head_only_census_mass_doc_any15_denom_all_head": 0.11690451070760915,
+    "head_only_census_mass_tok_any15": 0.09497674643489683
+   }
+  },
+  "estimator_variants_english": {
+   "HT_blocked_over_reachable_docmass": 0.3916776479395373,
+   "HT_blocked_over_all_sampled_docmass": 0.2650827554017873,
+   "HT_blocked_over_retained_census_docmass": 0.2643790742224476,
+   "HT_blocked_over_reachable_tokmass": 0.4141513753803526,
+   "HT_blocked_over_all_sampled_tokmass": 0.30912351059560694,
+   "unweighted_sample_mass_docmass_paper": 0.6244902854401535,
+   "head_only_census_docmass": 0.6390853966649823,
+   "tail_only_sample_docmass": 0.35071090047393366,
+   "domain_level_unweighted": 0.46691176470588236,
+   "domain_level_design_weighted": 0.2743159229416336,
+   "reviewer_A1aw_target": 0.392,
+   "closest_variant": "HT_blocked_over_reachable_docmass",
+   "closest_variant_abs_diff": 0.00032235206046271614
+  },
+  "notes": {
+   "retained_docmass_share_of_streamed_docs": "sum of retained doc_mass / docs_streamed. Below 1 both because the 20k cap drops tail domains and because some streamed docs have no parseable hostname.",
+   "tail_weight": "(N_retained - 175)/175; N_retained = len(census doc_mass), capped at 20000.",
+   "head_only_census": "not an estimate: all 175 head domains were fetched (inclusion prob 1)."
+  },
+  "tier_means": {
+   "sample_mass_doc (paper)": {
+    "high": 0.4431784751663923,
+    "mid": 0.13333377276990366,
+    "low": 0.122142803669855
+   },
+   "sample_mass_tok (paper)": {
+    "high": 0.38848968000854106,
+    "mid": 0.11729475903966649,
+    "low": 0.11128222101110279
+   },
+   "design_weighted_doc": {
+    "high": 0.3078226975809837,
+    "mid": 0.09845120529699306,
+    "low": 0.1142877766011104
+   },
+   "design_weighted_tok": {
+    "high": 0.276033416364325,
+    "mid": 0.08719776052502064,
+    "low": 0.11246563737732714
+   }
+  },
+  "cluster_tests": {
+   "sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.32103567149653733,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.32928736080627097,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   },
+   "sample_mass_doc_high_vs_rest": {
+    "gap_unweighted": 0.315440186946513,
+    "p_unweighted": 0.000999000999000999,
+    "gap_weighted": 0.3226397898239196,
+    "p_weighted": 0.000999000999000999,
+    "n_splits": 1001
+   },
+   "design_weighted_doc_high_vs_low": {
+    "gap_unweighted": 0.1935349209798733,
+    "p_unweighted": 0.015873015873015872,
+    "gap_weighted": 0.2003489169788859,
+    "p_weighted": 0.023809523809523808,
+    "n_splits": 126
+   },
+   "design_weighted_doc_high_vs_rest": {
+    "gap_unweighted": 0.20145320663193195,
+    "p_unweighted": 0.002997002997002997,
+    "gap_weighted": 0.20873305588116597,
+    "p_weighted": 0.003996003996003996,
+    "n_splits": 1001
+   },
+   "design_weighted_tok_high_vs_low": {
+    "gap_unweighted": 0.16356777898699787,
+    "p_unweighted": 0.10317460317460317,
+    "gap_weighted": 0.17418456813146446,
+    "p_weighted": 0.12698412698412698,
+    "n_splits": 126
+   },
+   "design_weighted_tok_high_vs_rest": {
+    "gap_unweighted": 0.1762017174131511,
+    "p_unweighted": 0.014985014985014986,
+    "gap_weighted": 0.1864875723990739,
+    "p_weighted": 0.024975024975024976,
+    "n_splits": 1001
+   }
+  },
+  "spearman": {
+   "sample_mass_doc": {
+    "rho": 0.687208948517702,
+    "perm_p": 0.0087,
+    "n_perm": 20000
+   },
+   "design_weighted_doc": {
+    "rho": 0.5055062434859028,
+    "perm_p": 0.06875,
+    "n_perm": 20000
+   },
+   "design_weighted_tok": {
+    "rho": 0.21664553292252978,
+    "perm_p": 0.4495,
+    "n_perm": 20000
+   }
+  }
+ },
+ "BC_policy_variants": {
+  "any15": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach": 272,
+     "n_block": 127,
+     "domain_rate": 0.46691176470588236,
+     "domain_rate_ci95": [
+      0.40808823529411764,
+      0.5294117647058824
+     ],
+     "sample_mass_doc": 0.6244902854401535,
+     "sample_mass_tok": 0.5872594197151976,
+     "design_wt_mass_doc": 0.3916776479395373,
+     "design_wt_mass_tok": 0.4141513753803526
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach": 254,
+     "n_block": 76,
+     "domain_rate": 0.2992125984251969,
+     "domain_rate_ci95": [
+      0.2440944881889764,
+      0.3543307086614173
+     ],
+     "sample_mass_doc": 0.5266101078192925,
+     "sample_mass_tok": 0.524108317636173,
+     "design_wt_mass_doc": 0.4260173749410143,
+     "design_wt_mass_tok": 0.4308469534663488
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach": 226,
+     "n_block": 29,
+     "domain_rate": 0.12831858407079647,
+     "domain_rate_ci95": [
+      0.08849557522123894,
+      0.17256637168141592
+     ],
+     "sample_mass_doc": 0.2357448264067043,
+     "sample_mass_tok": 0.16933042996402006,
+     "design_wt_mass_doc": 0.14268795461745695,
+     "design_wt_mass_tok": 0.06858536269572768
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach": 269,
+     "n_block": 62,
+     "domain_rate": 0.23048327137546468,
+     "domain_rate_ci95": [
+      0.1821561338289963,
+      0.2788104089219331
+     ],
+     "sample_mass_doc": 0.38586868099941896,
+     "sample_mass_tok": 0.2732605527187735,
+     "design_wt_mass_doc": 0.2709078128259261,
+     "design_wt_mass_tok": 0.1905499739148708
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach": 225,
+     "n_block": 31,
+     "domain_rate": 0.13777777777777778,
+     "domain_rate_ci95": [
+      0.09333333333333334,
+      0.18666666666666668
+     ],
+     "sample_mass_doc": 0.15950447513484678,
+     "sample_mass_tok": 0.12047264458980354,
+     "design_wt_mass_doc": 0.0835273760914213,
+     "design_wt_mass_tok": 0.056154942368479226
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach": 238,
+     "n_block": 26,
+     "domain_rate": 0.1092436974789916,
+     "domain_rate_ci95": [
+      0.07142857142857142,
+      0.14705882352941177
+     ],
+     "sample_mass_doc": 0.14577736245765682,
+     "sample_mass_tok": 0.15476607119210173,
+     "design_wt_mass_doc": 0.08831894325678817,
+     "design_wt_mass_tok": 0.08585467611424999
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach": 213,
+     "n_block": 17,
+     "domain_rate": 0.07981220657276995,
+     "domain_rate_ci95": [
+      0.046948356807511735,
+      0.11267605633802817
+     ],
+     "sample_mass_doc": 0.08273742506770532,
+     "sample_mass_tok": 0.09699451261878182,
+     "design_wt_mass_doc": 0.0624061117837559,
+     "design_wt_mass_tok": 0.050440155958983705
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach": 214,
+     "n_block": 27,
+     "domain_rate": 0.1261682242990654,
+     "domain_rate_ci95": [
+      0.08411214953271028,
+      0.17289719626168223
+     ],
+     "sample_mass_doc": 0.17334708080938266,
+     "sample_mass_tok": 0.1341544805420283,
+     "design_wt_mass_doc": 0.16295862662798066,
+     "design_wt_mass_tok": 0.15112082588851716
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach": 222,
+     "n_block": 23,
+     "domain_rate": 0.1036036036036036,
+     "domain_rate_ci95": [
+      0.06756756756756757,
+      0.14414414414414414
+     ],
+     "sample_mass_doc": 0.10530252037992671,
+     "sample_mass_tok": 0.08008608625561699,
+     "design_wt_mass_doc": 0.09504496872501922,
+     "design_wt_mass_tok": 0.09241820229487312
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach": 203,
+     "n_block": 11,
+     "domain_rate": 0.054187192118226604,
+     "domain_rate_ci95": [
+      0.024630541871921183,
+      0.08866995073891626
+     ],
+     "sample_mass_doc": 0.1112436310898231,
+     "sample_mass_tok": 0.10291837863442777,
+     "design_wt_mass_doc": 0.09388697860124538,
+     "design_wt_mass_tok": 0.08614102887444045
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach": 163,
+     "n_block": 20,
+     "domain_rate": 0.12269938650306748,
+     "domain_rate_ci95": [
+      0.0736196319018405,
+      0.17791411042944785
+     ],
+     "sample_mass_doc": 0.08204270583387867,
+     "sample_mass_tok": 0.09069984504022753,
+     "design_wt_mass_doc": 0.07710612336600002,
+     "design_wt_mass_tok": 0.08875776073022033
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach": 151,
+     "n_block": 17,
+     "domain_rate": 0.11258278145695365,
+     "domain_rate_ci95": [
+      0.06622516556291391,
+      0.16556291390728478
+     ],
+     "sample_mass_doc": 0.17429227237949502,
+     "sample_mass_tok": 0.13546092146106423,
+     "design_wt_mass_doc": 0.15434074464624095,
+     "design_wt_mass_tok": 0.11768458284585406
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach": 138,
+     "n_block": 15,
+     "domain_rate": 0.10869565217391304,
+     "domain_rate_ci95": [
+      0.057971014492753624,
+      0.16666666666666666
+     ],
+     "sample_mass_doc": 0.10764368713875437,
+     "sample_mass_tok": 0.132315156020985,
+     "design_wt_mass_doc": 0.12277755501417803,
+     "design_wt_mass_tok": 0.17253860471256377
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach": 202,
+     "n_block": 21,
+     "domain_rate": 0.10396039603960396,
+     "domain_rate_ci95": [
+      0.06435643564356436,
+      0.1485148514851485
+     ],
+     "sample_mass_doc": 0.13549172190732378,
+     "sample_mass_tok": 0.0950168038988094,
+     "design_wt_mass_doc": 0.12332748137788763,
+     "design_wt_mass_tok": 0.09720620972355705
+    }
+   },
+   "tier_means_domain": {
+    "high": 0.2812315546443351,
+    "mid": 0.11132110194644167,
+    "low": 0.10042508165835295
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.4431784751663923,
+    "mid": 0.13333377276990366,
+    "low": 0.122142803669855
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.3078226975809837,
+    "mid": 0.09845120529699306,
+    "low": 0.1142877766011104
+   },
+   "tier_means_design_wt_tok": {
+    "high": 0.276033416364325,
+    "mid": 0.08719776052502064,
+    "low": 0.11246563737732714
+   },
+   "pooled_domain_rate": {
+    "high": {
+     "rate": 0.28795298726738494,
+     "n": 1021,
+     "n_block": 294
+    },
+    "mid": {
+     "rate": 0.11151079136690648,
+     "n": 1112,
+     "n_block": 124
+    },
+    "low": {
+     "rate": 0.09801633605600933,
+     "n": 857,
+     "n_block": 84
+    }
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.18080647298598213,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.1899366512113756,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.1753584628419378,
+    "p_unweighted": 0.001998001998001998,
+    "gap_weighted": 0.1823156078869888,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.1935349209798733,
+    "p_unweighted": 0.015873015873015872,
+    "gap_weighted": 0.2003489169788859,
+    "p_weighted": 0.023809523809523808,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.20145320663193195,
+    "p_unweighted": 0.002997002997002997,
+    "gap_weighted": 0.20873305588116597,
+    "p_weighted": 0.003996003996003996,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.32103567149653733,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.32928736080627097,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   },
+   "spearman_domain": {
+    "rho": 0.689538470377084,
+    "perm_p": 0.0093,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.5055062434859028,
+    "perm_p": 0.06875,
+    "n_perm": 20000
+   }
+  },
+  "ccbot_only": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach": 272,
+     "n_block": 111,
+     "domain_rate": 0.40808823529411764,
+     "domain_rate_ci95": [
+      0.35294117647058826,
+      0.47058823529411764
+     ],
+     "sample_mass_doc": 0.563564403933797,
+     "sample_mass_tok": 0.536624285248433,
+     "design_wt_mass_doc": 0.31203308225956145,
+     "design_wt_mass_tok": 0.3163059465937329
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach": 254,
+     "n_block": 64,
+     "domain_rate": 0.25196850393700787,
+     "domain_rate_ci95": [
+      0.20078740157480315,
+      0.3031496062992126
+     ],
+     "sample_mass_doc": 0.4625122086676753,
+     "sample_mass_tok": 0.45758040368819597,
+     "design_wt_mass_doc": 0.38226734804815127,
+     "design_wt_mass_tok": 0.3778420642796972
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach": 226,
+     "n_block": 20,
+     "domain_rate": 0.08849557522123894,
+     "domain_rate_ci95": [
+      0.05309734513274336,
+      0.12389380530973451
+     ],
+     "sample_mass_doc": 0.19945271079185908,
+     "sample_mass_tok": 0.13324826149055236,
+     "design_wt_mass_doc": 0.11185529636646238,
+     "design_wt_mass_tok": 0.05140735466840433
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach": 269,
+     "n_block": 55,
+     "domain_rate": 0.20446096654275092,
+     "domain_rate_ci95": [
+      0.15985130111524162,
+      0.2527881040892193
+     ],
+     "sample_mass_doc": 0.3589773387565369,
+     "sample_mass_tok": 0.24863097764049616,
+     "design_wt_mass_doc": 0.2554562696610787,
+     "design_wt_mass_tok": 0.17601844210828455
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach": 225,
+     "n_block": 27,
+     "domain_rate": 0.12,
+     "domain_rate_ci95": [
+      0.08,
+      0.16444444444444445
+     ],
+     "sample_mass_doc": 0.13621006460790705,
+     "sample_mass_tok": 0.10733644406607973,
+     "design_wt_mass_doc": 0.06698407704697572,
+     "design_wt_mass_tok": 0.04929509656450813
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach": 238,
+     "n_block": 21,
+     "domain_rate": 0.08823529411764706,
+     "domain_rate_ci95": [
+      0.0546218487394958,
+      0.12605042016806722
+     ],
+     "sample_mass_doc": 0.10121481135381381,
+     "sample_mass_tok": 0.10750343282035792,
+     "design_wt_mass_doc": 0.06889415838055254,
+     "design_wt_mass_tok": 0.06776575824233673
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach": 213,
+     "n_block": 15,
+     "domain_rate": 0.07042253521126761,
+     "domain_rate_ci95": [
+      0.03755868544600939,
+      0.10328638497652583
+     ],
+     "sample_mass_doc": 0.07707756443416608,
+     "sample_mass_tok": 0.0916040263497132,
+     "design_wt_mass_doc": 0.06038766047230514,
+     "design_wt_mass_tok": 0.04896306566272983
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach": 214,
+     "n_block": 23,
+     "domain_rate": 0.10747663551401869,
+     "domain_rate_ci95": [
+      0.07009345794392523,
+      0.14953271028037382
+     ],
+     "sample_mass_doc": 0.15456244361386776,
+     "sample_mass_tok": 0.12088475814773483,
+     "design_wt_mass_doc": 0.15715998897392106,
+     "design_wt_mass_tok": 0.14716600344487896
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach": 222,
+     "n_block": 21,
+     "domain_rate": 0.0945945945945946,
+     "domain_rate_ci95": [
+      0.05855855855855856,
+      0.13513513513513514
+     ],
+     "sample_mass_doc": 0.1023982250143345,
+     "sample_mass_tok": 0.07732455949124853,
+     "design_wt_mass_doc": 0.09254543979234878,
+     "design_wt_mass_tok": 0.08886369839809662
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach": 203,
+     "n_block": 10,
+     "domain_rate": 0.04926108374384237,
+     "domain_rate_ci95": [
+      0.024630541871921183,
+      0.07881773399014778
+     ],
+     "sample_mass_doc": 0.11123408965135584,
+     "sample_mass_tok": 0.10287277980647858,
+     "design_wt_mass_doc": 0.09347590085077184,
+     "design_wt_mass_tok": 0.08423207135183179
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach": 163,
+     "n_block": 17,
+     "domain_rate": 0.10429447852760736,
+     "domain_rate_ci95": [
+      0.06134969325153374,
+      0.15337423312883436
+     ],
+     "sample_mass_doc": 0.07096633461790156,
+     "sample_mass_tok": 0.07563611943918225,
+     "design_wt_mass_doc": 0.06806790098063713,
+     "design_wt_mass_tok": 0.07575172902655138
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach": 151,
+     "n_block": 15,
+     "domain_rate": 0.09933774834437085,
+     "domain_rate_ci95": [
+      0.052980132450331126,
+      0.152317880794702
+     ],
+     "sample_mass_doc": 0.16273909716908952,
+     "sample_mass_tok": 0.11680361423069166,
+     "design_wt_mass_doc": 0.14441739384705918,
+     "design_wt_mass_tok": 0.10211900780822732
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach": 138,
+     "n_block": 13,
+     "domain_rate": 0.09420289855072464,
+     "domain_rate_ci95": [
+      0.050724637681159424,
+      0.14492753623188406
+     ],
+     "sample_mass_doc": 0.10662228577608479,
+     "sample_mass_tok": 0.13090225657020083,
+     "design_wt_mass_doc": 0.11944764567275065,
+     "design_wt_mass_tok": 0.16934094709404116
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach": 202,
+     "n_block": 16,
+     "domain_rate": 0.07920792079207921,
+     "domain_rate_ci95": [
+      0.04455445544554455,
+      0.1188118811881188
+     ],
+     "sample_mass_doc": 0.1206327857302975,
+     "sample_mass_tok": 0.08373888129695556,
+     "design_wt_mass_doc": 0.11188869222393831,
+     "design_wt_mass_tok": 0.08566134322932528
+    }
+   },
+   "tier_means_domain": {
+    "high": 0.23825332024877885,
+    "mid": 0.0961458118875056,
+    "low": 0.08526082599172488
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.39612666553746706,
+    "mid": 0.11429262180481783,
+    "low": 0.11443891858894584
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.26540299908381343,
+    "mid": 0.08919426493322065,
+    "low": 0.10745950671503142
+   },
+   "tier_means_design_wt_tok": {
+    "high": 0.23039345191252975,
+    "mid": 0.08041072446251005,
+    "low": 0.10342101970199538
+   },
+   "pooled_domain_rate": {
+    "high": {
+     "rate": 0.24485798237022527,
+     "n": 1021,
+     "n_block": 250
+    },
+    "mid": {
+     "rate": 0.09622302158273381,
+     "n": 1112,
+     "n_block": 107
+    },
+    "low": {
+     "rate": 0.08284714119019837,
+     "n": 857,
+     "n_block": 71
+    }
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.15299249425705397,
+    "p_unweighted": 0.031746031746031744,
+    "gap_weighted": 0.1620108411800269,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.14755000130916363,
+    "p_unweighted": 0.006993006993006993,
+    "gap_weighted": 0.15445676347738627,
+    "p_weighted": 0.007992007992007992,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.15794349236878202,
+    "p_unweighted": 0.031746031746031744,
+    "gap_weighted": 0.1641486692282455,
+    "p_weighted": 0.03968253968253968,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.1670761132596874,
+    "p_unweighted": 0.004995004995004995,
+    "gap_weighted": 0.17406277314319357,
+    "p_weighted": 0.004995004995004995,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.2816877469485212,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.2898034708062417,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   },
+   "spearman_domain": {
+    "rho": 0.5381195495172514,
+    "perm_p": 0.0535,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.3703939756417445,
+    "perm_p": 0.1917,
+    "n_perm": 20000
+   }
+  },
+  "gptbot_only": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach": 272,
+     "n_block": 104,
+     "domain_rate": 0.38235294117647056,
+     "domain_rate_ci95": [
+      0.3272058823529412,
+      0.44485294117647056
+     ],
+     "sample_mass_doc": 0.48836651475173903,
+     "sample_mass_tok": 0.45675946875547513,
+     "design_wt_mass_doc": 0.2947356546975067,
+     "design_wt_mass_tok": 0.3012617758869347
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach": 254,
+     "n_block": 61,
+     "domain_rate": 0.24015748031496062,
+     "domain_rate_ci95": [
+      0.1889763779527559,
+      0.2952755905511811
+     ],
+     "sample_mass_doc": 0.45753298734128733,
+     "sample_mass_tok": 0.4433048012625702,
+     "design_wt_mass_doc": 0.2669220651997741,
+     "design_wt_mass_tok": 0.28286266389479714
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach": 226,
+     "n_block": 24,
+     "domain_rate": 0.10619469026548672,
+     "domain_rate_ci95": [
+      0.07079646017699115,
+      0.1504424778761062
+     ],
+     "sample_mass_doc": 0.22066016760732,
+     "sample_mass_tok": 0.1490817704309006,
+     "design_wt_mass_doc": 0.1177407386144972,
+     "design_wt_mass_tok": 0.05341562260206623
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach": 269,
+     "n_block": 48,
+     "domain_rate": 0.17843866171003717,
+     "domain_rate_ci95": [
+      0.137546468401487,
+      0.22304832713754646
+     ],
+     "sample_mass_doc": 0.309424753050552,
+     "sample_mass_tok": 0.21217156592585706,
+     "design_wt_mass_doc": 0.18154689058040638,
+     "design_wt_mass_tok": 0.13242635825969284
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach": 225,
+     "n_block": 28,
+     "domain_rate": 0.12444444444444444,
+     "domain_rate_ci95": [
+      0.08444444444444445,
+      0.1688888888888889
+     ],
+     "sample_mass_doc": 0.13988500978009602,
+     "sample_mass_tok": 0.10852709001468823,
+     "design_wt_mass_doc": 0.06794561337820504,
+     "design_wt_mass_tok": 0.04752736356851172
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach": 238,
+     "n_block": 25,
+     "domain_rate": 0.10504201680672269,
+     "domain_rate_ci95": [
+      0.06722689075630252,
+      0.14285714285714285
+     ],
+     "sample_mass_doc": 0.13945021998987658,
+     "sample_mass_tok": 0.1484352292257968,
+     "design_wt_mass_doc": 0.08556094627785565,
+     "design_wt_mass_tok": 0.08343166114230087
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach": 213,
+     "n_block": 16,
+     "domain_rate": 0.07511737089201878,
+     "domain_rate_ci95": [
+      0.04225352112676056,
+      0.107981220657277
+     ],
+     "sample_mass_doc": 0.08033350576636339,
+     "sample_mass_tok": 0.09390909630087559,
+     "design_wt_mass_doc": 0.061548812570827886,
+     "design_wt_mass_tok": 0.0495946963333403
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach": 214,
+     "n_block": 23,
+     "domain_rate": 0.10747663551401869,
+     "domain_rate_ci95": [
+      0.07009345794392523,
+      0.14953271028037382
+     ],
+     "sample_mass_doc": 0.15817115607681403,
+     "sample_mass_tok": 0.12412717341456643,
+     "design_wt_mass_doc": 0.15492351368171575,
+     "design_wt_mass_tok": 0.13663290768713315
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach": 222,
+     "n_block": 22,
+     "domain_rate": 0.0990990990990991,
+     "domain_rate_ci95": [
+      0.06306306306306306,
+      0.13963963963963963
+     ],
+     "sample_mass_doc": 0.10529005559294992,
+     "sample_mass_tok": 0.08004016508640656,
+     "design_wt_mass_doc": 0.0943817656281959,
+     "design_wt_mass_tok": 0.09033440182293723
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach": 203,
+     "n_block": 11,
+     "domain_rate": 0.054187192118226604,
+     "domain_rate_ci95": [
+      0.024630541871921183,
+      0.08866995073891626
+     ],
+     "sample_mass_doc": 0.1112436310898231,
+     "sample_mass_tok": 0.10291837863442777,
+     "design_wt_mass_doc": 0.09388697860124538,
+     "design_wt_mass_tok": 0.08614102887444045
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach": 163,
+     "n_block": 15,
+     "domain_rate": 0.09202453987730061,
+     "domain_rate_ci95": [
+      0.049079754601226995,
+      0.1411042944785276
+     ],
+     "sample_mass_doc": 0.06490705058290312,
+     "sample_mass_tok": 0.06677149386279091,
+     "design_wt_mass_doc": 0.061994690192678184,
+     "design_wt_mass_tok": 0.06781259785357861
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach": 151,
+     "n_block": 12,
+     "domain_rate": 0.07947019867549669,
+     "domain_rate_ci95": [
+      0.039735099337748346,
+      0.12582781456953643
+     ],
+     "sample_mass_doc": 0.15924509053812802,
+     "sample_mass_tok": 0.11355770933764248,
+     "design_wt_mass_doc": 0.13876706105961967,
+     "design_wt_mass_tok": 0.09656020994333528
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach": 138,
+     "n_block": 14,
+     "domain_rate": 0.10144927536231885,
+     "domain_rate_ci95": [
+      0.050724637681159424,
+      0.15217391304347827
+     ],
+     "sample_mass_doc": 0.10676648361552049,
+     "sample_mass_tok": 0.13101827055844165,
+     "design_wt_mass_doc": 0.12196122848356579,
+     "design_wt_mass_tok": 0.17134350274989688
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach": 202,
+     "n_block": 19,
+     "domain_rate": 0.09405940594059406,
+     "domain_rate_ci95": [
+      0.054455445544554455,
+      0.13366336633663367
+     ],
+     "sample_mass_doc": 0.13223599235704145,
+     "sample_mass_tok": 0.0937492577382439,
+     "design_wt_mass_doc": 0.12062739105492302,
+     "design_wt_mass_tok": 0.09626599701418782
+    }
+   },
+   "tier_means_domain": {
+    "high": 0.22678594336673877,
+    "mid": 0.10223591335126074,
+    "low": 0.08423812239478737
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.36899610568772456,
+    "mid": 0.12462598944121998,
+    "low": 0.11487964963668325
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.21523633727304609,
+    "mid": 0.09287213030736005,
+    "low": 0.10744746987840641
+   },
+   "tier_means_design_wt_tok": {
+    "high": 0.19249160516087274,
+    "mid": 0.08150420611084466,
+    "low": 0.10362466728708782
+   },
+   "pooled_domain_rate": {
+    "high": {
+     "rate": 0.23212536728697356,
+     "n": 1021,
+     "n_block": 237
+    },
+    "mid": {
+     "rate": 0.10251798561151079,
+     "n": 1112,
+     "n_block": 114
+    },
+    "low": {
+     "rate": 0.08284714119019837,
+     "n": 857,
+     "n_block": 71
+    }
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.1425478209719514,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.14927822609677519,
+    "p_weighted": 0.023809523809523808,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.13354892549371472,
+    "p_unweighted": 0.002997002997002997,
+    "gap_weighted": 0.13816904428037122,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.10778886739463968,
+    "p_unweighted": 0.031746031746031744,
+    "gap_weighted": 0.11226428104834005,
+    "p_weighted": 0.03968253968253968,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.11507653718016285,
+    "p_unweighted": 0.004995004995004995,
+    "gap_weighted": 0.12019658711711652,
+    "p_weighted": 0.007992007992007992,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.25411645605104133,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.2591781270832325,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   },
+   "spearman_domain": {
+    "rho": 0.7850488666117477,
+    "perm_p": 0.0017,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.41698441282938525,
+    "perm_p": 0.13895,
+    "n_perm": 20000
+   }
+  },
+  "ccbot_or_wildcard": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach": 272,
+     "n_block": 120,
+     "domain_rate": 0.4411764705882353,
+     "domain_rate_ci95": [
+      0.38235294117647056,
+      0.5036764705882353
+     ],
+     "sample_mass_doc": 0.5921084192852003,
+     "sample_mass_tok": 0.5592379308523703,
+     "design_wt_mass_doc": 0.36466628039932536,
+     "design_wt_mass_tok": 0.37378985447578983
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach": 254,
+     "n_block": 87,
+     "domain_rate": 0.3425196850393701,
+     "domain_rate_ci95": [
+      0.28346456692913385,
+      0.4015748031496063
+     ],
+     "sample_mass_doc": 0.5452247352394813,
+     "sample_mass_tok": 0.5132716088618438,
+     "design_wt_mass_doc": 0.43013951300251946,
+     "design_wt_mass_tok": 0.4133243383877286
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach": 226,
+     "n_block": 26,
+     "domain_rate": 0.11504424778761062,
+     "domain_rate_ci95": [
+      0.0752212389380531,
+      0.15486725663716813
+     ],
+     "sample_mass_doc": 0.2142979305626817,
+     "sample_mass_tok": 0.13925948472999447,
+     "design_wt_mass_doc": 0.1266709616787119,
+     "design_wt_mass_tok": 0.05459680975109496
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach": 269,
+     "n_block": 62,
+     "domain_rate": 0.23048327137546468,
+     "domain_rate_ci95": [
+      0.1821561338289963,
+      0.2825278810408922
+     ],
+     "sample_mass_doc": 0.3725973271353864,
+     "sample_mass_tok": 0.2548892739454223,
+     "design_wt_mass_doc": 0.2689316068760872,
+     "design_wt_mass_tok": 0.18405374717726802
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach": 225,
+     "n_block": 30,
+     "domain_rate": 0.13333333333333333,
+     "domain_rate_ci95": [
+      0.08888888888888889,
+      0.18222222222222223
+     ],
+     "sample_mass_doc": 0.14178175567541937,
+     "sample_mass_tok": 0.1210907730327088,
+     "design_wt_mass_doc": 0.11720108737795247,
+     "design_wt_mass_tok": 0.07312989816011801
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach": 238,
+     "n_block": 27,
+     "domain_rate": 0.1134453781512605,
+     "domain_rate_ci95": [
+      0.07563025210084033,
+      0.15546218487394958
+     ],
+     "sample_mass_doc": 0.12239613752287505,
+     "sample_mass_tok": 0.12761319492970213,
+     "design_wt_mass_doc": 0.09242017568743818,
+     "design_wt_mass_tok": 0.08571688745700536
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach": 213,
+     "n_block": 19,
+     "domain_rate": 0.0892018779342723,
+     "domain_rate_ci95": [
+      0.051643192488262914,
+      0.1267605633802817
+     ],
+     "sample_mass_doc": 0.09323555366217326,
+     "sample_mass_tok": 0.11128862239061113,
+     "design_wt_mass_doc": 0.06615001340983391,
+     "design_wt_mass_tok": 0.05435699940939931
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach": 214,
+     "n_block": 29,
+     "domain_rate": 0.13551401869158877,
+     "domain_rate_ci95": [
+      0.08878504672897196,
+      0.1822429906542056
+     ],
+     "sample_mass_doc": 0.1582355973707952,
+     "sample_mass_tok": 0.12396116010308292,
+     "design_wt_mass_doc": 0.18509745860247287,
+     "design_wt_mass_tok": 0.169520323079092
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach": 222,
+     "n_block": 26,
+     "domain_rate": 0.11711711711711711,
+     "domain_rate_ci95": [
+      0.07657657657657657,
+      0.16666666666666666
+     ],
+     "sample_mass_doc": 0.11840301149253359,
+     "sample_mass_tok": 0.09051573998245631,
+     "design_wt_mass_doc": 0.10598499296632945,
+     "design_wt_mass_tok": 0.11198515227039353
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach": 203,
+     "n_block": 15,
+     "domain_rate": 0.07389162561576355,
+     "domain_rate_ci95": [
+      0.03940886699507389,
+      0.11330049261083744
+     ],
+     "sample_mass_doc": 0.11490754346125222,
+     "sample_mass_tok": 0.10593168329950974,
+     "design_wt_mass_doc": 0.0977456587009942,
+     "design_wt_mass_tok": 0.08748468805287432
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach": 163,
+     "n_block": 31,
+     "domain_rate": 0.1901840490797546,
+     "domain_rate_ci95": [
+      0.12883435582822086,
+      0.25153374233128833
+     ],
+     "sample_mass_doc": 0.12433650839816768,
+     "sample_mass_tok": 0.16402527766022484,
+     "design_wt_mass_doc": 0.11726193678228189,
+     "design_wt_mass_tok": 0.1575110822228475
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach": 151,
+     "n_block": 21,
+     "domain_rate": 0.1390728476821192,
+     "domain_rate_ci95": [
+      0.08609271523178808,
+      0.1986754966887417
+     ],
+     "sample_mass_doc": 0.16490691150216782,
+     "sample_mass_tok": 0.11990954210355198,
+     "design_wt_mass_doc": 0.16813554790227667,
+     "design_wt_mass_tok": 0.11679905750021223
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach": 138,
+     "n_block": 25,
+     "domain_rate": 0.18115942028985507,
+     "domain_rate_ci95": [
+      0.12318840579710146,
+      0.2463768115942029
+     ],
+     "sample_mass_doc": 0.11320732044364869,
+     "sample_mass_tok": 0.14297185766562495,
+     "design_wt_mass_doc": 0.13747264667119316,
+     "design_wt_mass_tok": 0.19072064905477368
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach": 202,
+     "n_block": 22,
+     "domain_rate": 0.10891089108910891,
+     "domain_rate_ci95": [
+      0.06930693069306931,
+      0.15346534653465346
+     ],
+     "sample_mass_doc": 0.12672793842935068,
+     "sample_mass_tok": 0.0962501732532194,
+     "design_wt_mass_doc": 0.12945467710100086,
+     "design_wt_mass_tok": 0.13105779817311977
+    }
+   },
+   "tier_means_domain": {
+    "high": 0.2823059186976702,
+    "mid": 0.1177223450455144,
+    "low": 0.13864376675132026
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.43105710305568745,
+    "mid": 0.1268104111447593,
+    "low": 0.12881724444691742
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.297602090489161,
+    "mid": 0.11337074560880538,
+    "low": 0.13001409343154935
+   },
+   "tier_means_design_wt_tok": {
+    "high": 0.25644118744797034,
+    "mid": 0.09894185207520165,
+    "low": 0.1367146550007655
+   },
+   "pooled_domain_rate": {
+    "high": {
+     "rate": 0.2889324191968658,
+     "n": 1021,
+     "n_block": 295
+    },
+    "mid": {
+     "rate": 0.11780575539568346,
+     "n": 1112,
+     "n_block": 131
+    },
+    "low": {
+     "rate": 0.13302217036172695,
+     "n": 857,
+     "n_block": 114
+    }
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.14366215194634993,
+    "p_unweighted": 0.06349206349206349,
+    "gap_weighted": 0.15591024883513885,
+    "p_weighted": 0.09523809523809523,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.15412286279925286,
+    "p_unweighted": 0.007992007992007992,
+    "gap_weighted": 0.1645037752151492,
+    "p_weighted": 0.012987012987012988,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.16758799705761163,
+    "p_unweighted": 0.031746031746031744,
+    "gap_weighted": 0.17531967887883265,
+    "p_weighted": 0.047619047619047616,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.1759096709689836,
+    "p_unweighted": 0.004995004995004995,
+    "gap_weighted": 0.1836697669781286,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.30223985860877,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.3109590014663898,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   },
+   "spearman_domain": {
+    "rho": 0.37505301936050855,
+    "perm_p": 0.1877,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.3703939756417445,
+    "perm_p": 0.19355,
+    "n_perm": 20000
+   }
+  },
+  "any15_or_wildcard": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach": 272,
+     "n_block": 135,
+     "domain_rate": 0.4963235294117647,
+     "domain_rate_ci95": [
+      0.4375,
+      0.5551470588235294
+     ],
+     "sample_mass_doc": 0.6490765171503958,
+     "sample_mass_tok": 0.6085359842467539,
+     "design_wt_mass_doc": 0.4437186264606804,
+     "design_wt_mass_tok": 0.4714011466987619
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach": 254,
+     "n_block": 99,
+     "domain_rate": 0.38976377952755903,
+     "domain_rate_ci95": [
+      0.33070866141732286,
+      0.44881889763779526
+     ],
+     "sample_mass_doc": 0.6093226343910987,
+     "sample_mass_tok": 0.5797995228098207,
+     "design_wt_mass_doc": 0.4738895398953825,
+     "design_wt_mass_tok": 0.4663292275743805
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach": 226,
+     "n_block": 34,
+     "domain_rate": 0.1504424778761062,
+     "domain_rate_ci95": [
+      0.10619469026548672,
+      0.19911504424778761
+     ],
+     "sample_mass_doc": 0.2504874294510005,
+     "sample_mass_tok": 0.17530731227610105,
+     "design_wt_mass_doc": 0.15244528643690486,
+     "design_wt_mass_tok": 0.07058093631484802
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach": 269,
+     "n_block": 68,
+     "domain_rate": 0.2527881040892193,
+     "domain_rate_ci95": [
+      0.20446096654275092,
+      0.3048327137546468
+     ],
+     "sample_mass_doc": 0.39941894247530507,
+     "sample_mass_tok": 0.2794423751260857,
+     "design_wt_mass_doc": 0.28151469735352364,
+     "design_wt_mass_tok": 0.19500308987881382
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach": 225,
+     "n_block": 33,
+     "domain_rate": 0.14666666666666667,
+     "domain_rate_ci95": [
+      0.10222222222222223,
+      0.2
+     ],
+     "sample_mass_doc": 0.16472052634698595,
+     "sample_mass_tok": 0.13406758588577067,
+     "design_wt_mass_doc": 0.12320293512288391,
+     "design_wt_mass_tok": 0.07599840842935424
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach": 238,
+     "n_block": 31,
+     "domain_rate": 0.13025210084033614,
+     "domain_rate_ci95": [
+      0.08823529411764706,
+      0.17647058823529413
+     ],
+     "sample_mass_doc": 0.1544990849978585,
+     "sample_mass_tok": 0.16432872053963676,
+     "design_wt_mass_doc": 0.10641382805131434,
+     "design_wt_mass_tok": 0.09976908915929748
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach": 213,
+     "n_block": 21,
+     "domain_rate": 0.09859154929577464,
+     "domain_rate_ci95": [
+      0.06103286384976526,
+      0.13615023474178403
+     ],
+     "sample_mass_doc": 0.0988954142957125,
+     "sample_mass_tok": 0.11667910865967976,
+     "design_wt_mass_doc": 0.06816846472128467,
+     "design_wt_mass_tok": 0.055834089705653185
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach": 214,
+     "n_block": 33,
+     "domain_rate": 0.1542056074766355,
+     "domain_rate_ci95": [
+      0.10747663551401869,
+      0.20093457943925233
+     ],
+     "sample_mass_doc": 0.17702023456631008,
+     "sample_mass_tok": 0.1372308824973764,
+     "design_wt_mass_doc": 0.19089609625653248,
+     "design_wt_mass_tok": 0.17347514552273025
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach": 222,
+     "n_block": 28,
+     "domain_rate": 0.12612612612612611,
+     "domain_rate_ci95": [
+      0.08558558558558559,
+      0.17567567567567569
+     ],
+     "sample_mass_doc": 0.1213073068581258,
+     "sample_mass_tok": 0.09327726674682475,
+     "design_wt_mass_doc": 0.10848452189899989,
+     "design_wt_mass_tok": 0.11553965616717007
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach": 203,
+     "n_block": 16,
+     "domain_rate": 0.07881773399014778,
+     "domain_rate_ci95": [
+      0.04433497536945813,
+      0.11822660098522167
+     ],
+     "sample_mass_doc": 0.11491708489971948,
+     "sample_mass_tok": 0.10597728212745891,
+     "design_wt_mass_doc": 0.09815673645146773,
+     "design_wt_mass_tok": 0.08939364557548297
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach": 163,
+     "n_block": 34,
+     "domain_rate": 0.2085889570552147,
+     "domain_rate_ci95": [
+      0.147239263803681,
+      0.27607361963190186
+     ],
+     "sample_mass_doc": 0.1354128796141448,
+     "sample_mass_tok": 0.1790890032612701,
+     "design_wt_mass_doc": 0.12630015916764478,
+     "design_wt_mass_tok": 0.17051711392651642
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach": 151,
+     "n_block": 23,
+     "domain_rate": 0.152317880794702,
+     "domain_rate_ci95": [
+      0.09933774834437085,
+      0.2119205298013245
+     ],
+     "sample_mass_doc": 0.17646008671257332,
+     "sample_mass_tok": 0.13856684933392452,
+     "design_wt_mass_doc": 0.17805889870145844,
+     "design_wt_mass_tok": 0.13236463253783898
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach": 138,
+     "n_block": 26,
+     "domain_rate": 0.18840579710144928,
+     "domain_rate_ci95": [
+      0.13043478260869565,
+      0.2608695652173913
+     ],
+     "sample_mass_doc": 0.11408452396688257,
+     "sample_mass_tok": 0.14426874312816834,
+     "design_wt_mass_doc": 0.1382889732018054,
+     "design_wt_mass_tok": 0.19191575101744057
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach": 202,
+     "n_block": 27,
+     "domain_rate": 0.13366336633663367,
+     "domain_rate_ci95": [
+      0.0891089108910891,
+      0.18316831683168316
+     ],
+     "sample_mass_doc": 0.14158687460637695,
+     "sample_mass_tok": 0.10752809585507324,
+     "design_wt_mass_doc": 0.1408934662549502,
+     "design_wt_mass_tok": 0.14260266466735155
+    }
+   },
+   "tier_means_domain": {
+    "high": 0.3223294727261623,
+    "mid": 0.13116841008110783,
+    "low": 0.1523587470556295
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.47707638086695003,
+    "mid": 0.14328851341299856,
+    "low": 0.13649228995993942
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.33789203753662284,
+    "mid": 0.11943316921020306,
+    "low": 0.1363396467554653
+   },
+   "tier_means_design_wt_tok": {
+    "high": 0.30082860011670104,
+    "mid": 0.10412327779684105,
+    "low": 0.1453587615449261
+   },
+   "pooled_domain_rate": {
+    "high": {
+     "rate": 0.32908912830558273,
+     "n": 1021,
+     "n_block": 336
+    },
+    "mid": {
+     "rate": 0.13129496402877697,
+     "n": 1112,
+     "n_block": 146
+    },
+    "low": {
+     "rate": 0.147024504084014,
+     "n": 857,
+     "n_block": 126
+    }
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.1699707256705328,
+    "p_unweighted": 0.03968253968253968,
+    "gap_weighted": 0.18206462422156874,
+    "p_weighted": 0.06349206349206349,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.18056589415779364,
+    "p_unweighted": 0.004995004995004995,
+    "gap_weighted": 0.1909479398850647,
+    "p_weighted": 0.007992007992007992,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.20155239078115753,
+    "p_unweighted": 0.015873015873015872,
+    "gap_weighted": 0.20989149690681058,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.21000562955378865,
+    "p_unweighted": 0.002997002997002997,
+    "gap_weighted": 0.21834409805747332,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.3405840909070106,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.34937065078941515,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   },
+   "spearman_domain": {
+    "rho": 0.39368919423556487,
+    "perm_p": 0.16705,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.4822110248920824,
+    "perm_p": 0.08535,
+    "n_perm": 20000
+   }
+  },
+  "wildcard_only": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach": 272,
+     "n_block": 26,
+     "domain_rate": 0.09558823529411764,
+     "domain_rate_ci95": [
+      0.0625,
+      0.1323529411764706
+     ],
+     "sample_mass_doc": 0.07267929959222835,
+     "sample_mass_tok": 0.07338605093314846,
+     "design_wt_mass_doc": 0.12775023201677702,
+     "design_wt_mass_tok": 0.1435145466803142
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach": 254,
+     "n_block": 34,
+     "domain_rate": 0.13385826771653545,
+     "domain_rate_ci95": [
+      0.09448818897637795,
+      0.17716535433070865
+     ],
+     "sample_mass_doc": 0.13024493938755577,
+     "sample_mass_tok": 0.08795188938854488,
+     "design_wt_mass_doc": 0.09195638049313612,
+     "design_wt_mass_tok": 0.06820657399987544
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach": 226,
+     "n_block": 9,
+     "domain_rate": 0.03982300884955752,
+     "domain_rate_ci95": [
+      0.017699115044247787,
+      0.06637168141592921
+     ],
+     "sample_mass_doc": 0.041970241149307336,
+     "sample_mass_tok": 0.01277638592958549,
+     "design_wt_mass_doc": 0.03831703567624116,
+     "design_wt_mass_tok": 0.009245909128827175
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach": 269,
+     "n_block": 18,
+     "domain_rate": 0.06691449814126393,
+     "domain_rate_ci95": [
+      0.040892193308550186,
+      0.10037174721189591
+     ],
+     "sample_mass_doc": 0.05726902963393376,
+     "sample_mass_tok": 0.033845075880819336,
+     "design_wt_mass_doc": 0.07292067323633562,
+     "design_wt_mass_tok": 0.042369211658593
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach": 225,
+     "n_block": 20,
+     "domain_rate": 0.08888888888888889,
+     "domain_rate_ci95": [
+      0.05333333333333334,
+      0.1288888888888889
+     ],
+     "sample_mass_doc": 0.08179716673581885,
+     "sample_mass_tok": 0.06744090814884503,
+     "design_wt_mass_doc": 0.09105793367171731,
+     "design_wt_mass_tok": 0.05528362724008711
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach": 238,
+     "n_block": 21,
+     "domain_rate": 0.08823529411764706,
+     "domain_rate_ci95": [
+      0.0546218487394958,
+      0.12605042016806722
+     ],
+     "sample_mass_doc": 0.07485496242650781,
+     "sample_mass_tok": 0.07564006036475303,
+     "design_wt_mass_doc": 0.06979126509018337,
+     "design_wt_mass_tok": 0.06329380968173211
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach": 213,
+     "n_block": 17,
+     "domain_rate": 0.07981220657276995,
+     "domain_rate_ci95": [
+      0.046948356807511735,
+      0.11737089201877934
+     ],
+     "sample_mass_doc": 0.07914676079481484,
+     "sample_mass_tok": 0.10221485015447941,
+     "design_wt_mass_doc": 0.06112558890874951,
+     "design_wt_mass_tok": 0.051870622438676836
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach": 214,
+     "n_block": 25,
+     "domain_rate": 0.11682242990654206,
+     "domain_rate_ci95": [
+      0.07476635514018691,
+      0.1588785046728972
+     ],
+     "sample_mass_doc": 0.12778708596468616,
+     "sample_mass_tok": 0.10687802945292685,
+     "design_wt_mass_doc": 0.1701142108538675,
+     "design_wt_mass_tok": 0.15206685877077408
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach": 222,
+     "n_block": 25,
+     "domain_rate": 0.11261261261261261,
+     "domain_rate_ci95": [
+      0.07207207207207207,
+      0.16216216216216217
+     ],
+     "sample_mass_doc": 0.11617181462368809,
+     "sample_mass_tok": 0.08768964026292565,
+     "design_wt_mass_doc": 0.10456817260160257,
+     "design_wt_mass_tok": 0.11045460801762513
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach": 203,
+     "n_block": 11,
+     "domain_rate": 0.054187192118226604,
+     "domain_rate_ci95": [
+      0.024630541871921183,
+      0.08866995073891626
+     ],
+     "sample_mass_doc": 0.022002557105509225,
+     "sample_mass_tok": 0.031603126041061476,
+     "design_wt_mass_doc": 0.01994294876744807,
+     "design_wt_mass_tok": 0.027206798246284077
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach": 163,
+     "n_block": 28,
+     "domain_rate": 0.17177914110429449,
+     "domain_rate_ci95": [
+      0.1165644171779141,
+      0.2331288343558282
+     ],
+     "sample_mass_doc": 0.11379335417727042,
+     "sample_mass_tok": 0.15379980004224814,
+     "design_wt_mass_doc": 0.10752992699806006,
+     "design_wt_mass_tok": 0.1483969904016514
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach": 151,
+     "n_block": 16,
+     "domain_rate": 0.10596026490066225,
+     "domain_rate_ci95": [
+      0.059602649006622516,
+      0.15894039735099338
+     ],
+     "sample_mass_doc": 0.044121397602652386,
+     "sample_mass_tok": 0.05367848382358645,
+     "design_wt_mass_doc": 0.061740203358905524,
+     "design_wt_mass_tok": 0.058692476657052725
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach": 138,
+     "n_block": 23,
+     "domain_rate": 0.16666666666666666,
+     "domain_rate_ci95": [
+      0.10869565217391304,
+      0.2318840579710145
+     ],
+     "sample_mass_doc": 0.06655931938619786,
+     "sample_mass_tok": 0.06778545024815992,
+     "design_wt_mass_doc": 0.08157015855265796,
+     "design_wt_mass_tok": 0.08073402174716277
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach": 202,
+     "n_block": 15,
+     "domain_rate": 0.07425742574257425,
+     "domain_rate_ci95": [
+      0.039603960396039604,
+      0.11386138613861387
+     ],
+     "sample_mass_doc": 0.06353476158452621,
+     "sample_mass_tok": 0.06589683427604189,
+     "design_wt_mass_doc": 0.0574891431668582,
+     "design_wt_mass_tok": 0.08325282610888032
+    }
+   },
+   "tier_means_domain": {
+    "high": 0.08404600250036863,
+    "mid": 0.09727428641969212,
+    "low": 0.11457013810648484
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.0755408774407563,
+    "mid": 0.09595155810910315,
+    "low": 0.06200227797123122
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.08273608035562248,
+    "mid": 0.09933143422522404,
+    "low": 0.06565447616878597
+   },
+   "tier_means_design_wt_tok": {
+    "high": 0.06583406036690245,
+    "mid": 0.08659390522977906,
+    "low": 0.07965662263220627
+   },
+   "pooled_domain_rate": {
+    "high": {
+     "rate": 0.08521057786483839,
+     "n": 1021,
+     "n_block": 87
+    },
+    "mid": {
+     "rate": 0.09712230215827339,
+     "n": 1112,
+     "n_block": 108
+    },
+    "low": {
+     "rate": 0.10851808634772463,
+     "n": 857,
+     "n_block": 93
+    }
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": -0.030524135606116207,
+    "p_unweighted": 0.373015873015873,
+    "gap_weighted": -0.023307508482886236,
+    "p_weighted": 0.4523809523809524,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": -0.021876209762719853,
+    "p_unweighted": 0.36163836163836166,
+    "gap_weighted": -0.016871697401794422,
+    "p_weighted": 0.42857142857142855,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.017081604186836505,
+    "p_unweighted": 0.48412698412698413,
+    "gap_weighted": 0.021863763368398348,
+    "p_weighted": 0.3968253968253968,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.00024312515861747708,
+    "p_unweighted": 0.991008991008991,
+    "gap_weighted": 0.0015641378365700842,
+    "p_weighted": 0.9400599400599401,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.013538599469525077,
+    "p_unweighted": 0.5793650793650794,
+    "gap_weighted": 0.015820141298812505,
+    "p_weighted": 0.5555555555555556,
+    "n_splits": 126
+   },
+   "spearman_domain": {
+    "rho": -0.230622664078822,
+    "perm_p": 0.4232,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.2399407515163502,
+    "perm_p": 0.40545,
+    "n_perm": 20000
+   }
+  }
+ },
+ "D_azerbaijani": {
+  "exclude": {
+   "tier_means_domain": {
+    "high": 0.2812315546443351,
+    "mid": 0.11325047653215119,
+    "low": 0.10042508165835295
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.4431784751663923,
+    "mid": 0.1403415858673979,
+    "low": 0.122142803669855
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.3078226975809837,
+    "mid": 0.09930276443998651,
+    "low": 0.1142877766011104
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.18080647298598213,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.1899366512113756,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.17510629748651624,
+    "p_unweighted": 0.002797202797202797,
+    "gap_weighted": 0.18205716585925674,
+    "p_weighted": 0.008391608391608392,
+    "n_splits": 715
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.1935349209798733,
+    "p_unweighted": 0.015873015873015872,
+    "gap_weighted": 0.2003489169788859,
+    "p_weighted": 0.023809523809523808,
+    "n_splits": 126
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.20019492638481723,
+    "p_unweighted": 0.004195804195804196,
+    "gap_weighted": 0.20752465494340422,
+    "p_weighted": 0.005594405594405594,
+    "n_splits": 715
+   },
+   "spearman_domain": {
+    "rho": 0.7629184089476183,
+    "perm_p": 0.00405,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.5299662230094142,
+    "perm_p": 0.0649,
+    "n_perm": 20000
+   },
+   "note": "azj is mid tier, so high-vs-low is numerically unchanged; only high-vs-rest, the mid tier mean and the Spearman rank vector move."
+  },
+  "move_to_low": {
+   "tier_means_domain": {
+    "high": 0.2812315546443351,
+    "mid": 0.11325047653215119,
+    "low": 0.10095483531589472
+   },
+   "tier_means_sample_mass_doc": {
+    "high": 0.4431784751663923,
+    "mid": 0.1403415858673979,
+    "low": 0.11933608978820028
+   },
+   "tier_means_design_wt_doc": {
+    "high": 0.3078226975809837,
+    "mid": 0.09930276443998651,
+    "low": 0.1110806419550952
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.18027671932844036,
+    "p_unweighted": 0.004761904761904762,
+    "gap_weighted": 0.1887870929207677,
+    "p_weighted": 0.01904761904761905,
+    "n_splits": 210
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.1753584628419378,
+    "p_unweighted": 0.001998001998001998,
+    "gap_weighted": 0.1823156078869888,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   },
+   "cluster_design_wt_doc_high_vs_low": {
+    "gap_unweighted": 0.19674205562588848,
+    "p_unweighted": 0.009523809523809525,
+    "gap_weighted": 0.20403043252529554,
+    "p_weighted": 0.014285714285714285,
+    "n_splits": 210
+   },
+   "cluster_design_wt_doc_high_vs_rest": {
+    "gap_unweighted": 0.20145320663193195,
+    "p_unweighted": 0.002997002997002997,
+    "gap_weighted": 0.20873305588116597,
+    "p_weighted": 0.003996003996003996,
+    "n_splits": 1001
+   },
+   "cluster_sample_mass_doc_high_vs_low": {
+    "gap_unweighted": 0.32384238537819204,
+    "p_unweighted": 0.004761904761904762,
+    "gap_weighted": 0.33270928703635394,
+    "p_weighted": 0.004761904761904762,
+    "n_splits": 210
+   },
+   "spearman_domain": {
+    "rho": 0.7547796418109777,
+    "perm_p": 0.00325,
+    "n_perm": 20000
+   },
+   "spearman_design_wt_doc": {
+    "rho": 0.5016237371041902,
+    "perm_p": 0.0711,
+    "n_perm": 20000
+   }
+  },
+  "baseline": {
+   "tier_means_domain": {
+    "high": 0.2812315546443351,
+    "mid": 0.11132110194644167,
+    "low": 0.10042508165835295
+   },
+   "cluster_domain_high_vs_low": {
+    "gap_unweighted": 0.18080647298598213,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.1899366512113756,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   },
+   "cluster_domain_high_vs_rest": {
+    "gap_unweighted": 0.1753584628419378,
+    "p_unweighted": 0.001998001998001998,
+    "gap_weighted": 0.1823156078869888,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   }
+  }
+ },
+ "E_conditional_on_naming": {
+  "per_lang": {
+   "eng_Latn": {
+    "tier": "high",
+    "n_reach": 272,
+    "n_named": 134,
+    "n_blocked_given_named": 127,
+    "cond_block_rate": 0.9477611940298507,
+    "cond_block_ci95": [
+     0.9104477611940298,
+     0.9850746268656716
+    ],
+    "named_rate": 0.49264705882352944
+   },
+   "deu_Latn": {
+    "tier": "high",
+    "n_reach": 254,
+    "n_named": 102,
+    "n_blocked_given_named": 76,
+    "cond_block_rate": 0.7450980392156863,
+    "cond_block_ci95": [
+     0.6568627450980392,
+     0.8333333333333334
+    ],
+    "named_rate": 0.4015748031496063
+   },
+   "jpn_Jpan": {
+    "tier": "high",
+    "n_reach": 226,
+    "n_named": 36,
+    "n_blocked_given_named": 29,
+    "cond_block_rate": 0.8055555555555556,
+    "cond_block_ci95": [
+     0.6666666666666666,
+     0.9166666666666666
+    ],
+    "named_rate": 0.1592920353982301
+   },
+   "fra_Latn": {
+    "tier": "high",
+    "n_reach": 269,
+    "n_named": 71,
+    "n_blocked_given_named": 62,
+    "cond_block_rate": 0.8732394366197183,
+    "cond_block_ci95": [
+     0.7887323943661971,
+     0.9436619718309859
+    ],
+    "named_rate": 0.26394052044609667
+   },
+   "ind_Latn": {
+    "tier": "mid",
+    "n_reach": 225,
+    "n_named": 62,
+    "n_blocked_given_named": 31,
+    "cond_block_rate": 0.5,
+    "cond_block_ci95": [
+     0.3870967741935484,
+     0.6290322580645161
+    ],
+    "named_rate": 0.27555555555555555
+   },
+   "tur_Latn": {
+    "tier": "mid",
+    "n_reach": 238,
+    "n_named": 51,
+    "n_blocked_given_named": 26,
+    "cond_block_rate": 0.5098039215686274,
+    "cond_block_ci95": [
+     0.37254901960784315,
+     0.6470588235294118
+    ],
+    "named_rate": 0.21428571428571427
+   },
+   "vie_Latn": {
+    "tier": "mid",
+    "n_reach": 213,
+    "n_named": 19,
+    "n_blocked_given_named": 17,
+    "cond_block_rate": 0.8947368421052632,
+    "cond_block_ci95": [
+     0.7368421052631579,
+     1.0
+    ],
+    "named_rate": 0.0892018779342723
+   },
+   "tha_Thai": {
+    "tier": "mid",
+    "n_reach": 214,
+    "n_named": 36,
+    "n_blocked_given_named": 27,
+    "cond_block_rate": 0.75,
+    "cond_block_ci95": [
+     0.6111111111111112,
+     0.8888888888888888
+    ],
+    "named_rate": 0.16822429906542055
+   },
+   "azj_Latn": {
+    "tier": "mid",
+    "n_reach": 222,
+    "n_named": 29,
+    "n_blocked_given_named": 23,
+    "cond_block_rate": 0.7931034482758621,
+    "cond_block_ci95": [
+     0.6551724137931034,
+     0.9310344827586207
+    ],
+    "named_rate": 0.13063063063063063
+   },
+   "swh_Latn": {
+    "tier": "low",
+    "n_reach": 203,
+    "n_named": 13,
+    "n_blocked_given_named": 11,
+    "cond_block_rate": 0.8461538461538461,
+    "cond_block_ci95": [
+     0.6153846153846154,
+     1.0
+    ],
+    "named_rate": 0.06403940886699508
+   },
+   "sun_Latn": {
+    "tier": "low",
+    "n_reach": 163,
+    "n_named": 21,
+    "n_blocked_given_named": 20,
+    "cond_block_rate": 0.9523809523809523,
+    "cond_block_ci95": [
+     0.8571428571428571,
+     1.0
+    ],
+    "named_rate": 0.12883435582822086
+   },
+   "yor_Latn": {
+    "tier": "low",
+    "n_reach": 151,
+    "n_named": 17,
+    "n_blocked_given_named": 17,
+    "cond_block_rate": 1.0,
+    "cond_block_ci95": [
+     1.0,
+     1.0
+    ],
+    "named_rate": 0.11258278145695365
+   },
+   "uig_Arab": {
+    "tier": "low",
+    "n_reach": 138,
+    "n_named": 15,
+    "n_blocked_given_named": 15,
+    "cond_block_rate": 1.0,
+    "cond_block_ci95": [
+     1.0,
+     1.0
+    ],
+    "named_rate": 0.10869565217391304
+   },
+   "gle_Latn": {
+    "tier": "low",
+    "n_reach": 202,
+    "n_named": 25,
+    "n_blocked_given_named": 21,
+    "cond_block_rate": 0.84,
+    "cond_block_ci95": [
+     0.68,
+     0.96
+    ],
+    "named_rate": 0.12376237623762376
+   }
+  },
+  "pooled": {
+   "high": {
+    "rate": 0.8571428571428571,
+    "n": 343,
+    "n_block": 294
+   },
+   "mid": {
+    "rate": 0.6294416243654822,
+    "n": 197,
+    "n_block": 124
+   },
+   "low": {
+    "rate": 0.9230769230769231,
+    "n": 91,
+    "n_block": 84
+   }
+  },
+  "pooled_gap_high_minus_low": {
+   "gap": -0.06593406593406603,
+   "boot_ci95_signed": [
+    -0.13029827315541598,
+    0.00291545189504383
+   ],
+   "boot_ci95_abs": [
+    0.005830903790087549,
+    0.13029827315541598
+   ],
+   "wald_ci95_abs_paper": [
+    -0.00016412371055371522,
+    0.13203225557868578
+   ]
+  },
+  "cluster_high_vs_low": {
+   "gap_unweighted": -0.08479340335175689,
+   "p_unweighted": 0.16666666666666666,
+   "gap_weighted": -0.06593406593406603,
+   "p_weighted": 0.5793650793650794,
+   "n_splits": 126
+  },
+  "cluster_high_vs_rest": {
+   "gap_unweighted": 0.03429565530674761,
+   "p_unweighted": 0.7542457542457542,
+   "gap_weighted": 0.13492063492063489,
+   "p_weighted": 0.2887112887112887,
+   "n_splits": 1001
+  },
+  "tier_means_language_level": {
+   "high": 0.8429135563552027,
+   "mid": 0.6895288423899506,
+   "low": 0.9277069597069596
+  },
+  "spearman": {
+   "rho": -0.40578296415574305,
+   "perm_p": 0.14985,
+   "n_perm": 20000
+  }
+ },
+ "F_mechanism_proxies": {
+  "conventional_bot_naming": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n_reach_with_body": 272,
+     "share_names_conventional": 0.4375,
+     "share_names_conventional_ci95": [
+      0.38235294117647056,
+      0.5
+     ],
+     "share_names_ai": 0.49264705882352944,
+     "ratio_ai_over_conventional": 1.1260504201680672,
+     "n_names_conventional": 119,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.7226890756302521,
+      "n": 119,
+      "k": 86
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.680672268907563,
+      "n": 119,
+      "k": 81
+     }
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n_reach_with_body": 254,
+     "share_names_conventional": 0.39763779527559057,
+     "share_names_conventional_ci95": [
+      0.3346456692913386,
+      0.46062992125984253
+     ],
+     "share_names_ai": 0.4015748031496063,
+     "ratio_ai_over_conventional": 1.00990099009901,
+     "n_names_conventional": 101,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.7722772277227723,
+      "n": 101,
+      "k": 78
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.5247524752475248,
+      "n": 101,
+      "k": 53
+     }
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n_reach_with_body": 226,
+     "share_names_conventional": 0.26548672566371684,
+     "share_names_conventional_ci95": [
+      0.2079646017699115,
+      0.3230088495575221
+     ],
+     "share_names_ai": 0.1592920353982301,
+     "ratio_ai_over_conventional": 0.6,
+     "n_names_conventional": 60,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.3333333333333333,
+      "n": 60,
+      "k": 20
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.2833333333333333,
+      "n": 60,
+      "k": 17
+     }
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n_reach_with_body": 269,
+     "share_names_conventional": 0.31226765799256506,
+     "share_names_conventional_ci95": [
+      0.26022304832713755,
+      0.3643122676579926
+     ],
+     "share_names_ai": 0.26394052044609667,
+     "ratio_ai_over_conventional": 0.8452380952380952,
+     "n_names_conventional": 84,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.5833333333333334,
+      "n": 84,
+      "k": 49
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.5238095238095238,
+      "n": 84,
+      "k": 44
+     }
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n_reach_with_body": 225,
+     "share_names_conventional": 0.26666666666666666,
+     "share_names_conventional_ci95": [
+      0.21333333333333335,
+      0.3244444444444444
+     ],
+     "share_names_ai": 0.27555555555555555,
+     "ratio_ai_over_conventional": 1.0333333333333334,
+     "n_names_conventional": 60,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.6833333333333333,
+      "n": 60,
+      "k": 41
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.18333333333333332,
+      "n": 60,
+      "k": 11
+     }
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n_reach_with_body": 238,
+     "share_names_conventional": 0.226890756302521,
+     "share_names_conventional_ci95": [
+      0.17647058823529413,
+      0.2815126050420168
+     ],
+     "share_names_ai": 0.21428571428571427,
+     "ratio_ai_over_conventional": 0.9444444444444444,
+     "n_names_conventional": 54,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.5370370370370371,
+      "n": 54,
+      "k": 29
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.1111111111111111,
+      "n": 54,
+      "k": 6
+     }
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n_reach_with_body": 213,
+     "share_names_conventional": 0.12206572769953052,
+     "share_names_conventional_ci95": [
+      0.07981220657276995,
+      0.16901408450704225
+     ],
+     "share_names_ai": 0.0892018779342723,
+     "ratio_ai_over_conventional": 0.7307692307692307,
+     "n_names_conventional": 26,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.15384615384615385,
+      "n": 26,
+      "k": 4
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.11538461538461539,
+      "n": 26,
+      "k": 3
+     }
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n_reach_with_body": 214,
+     "share_names_conventional": 0.13551401869158877,
+     "share_names_conventional_ci95": [
+      0.09345794392523364,
+      0.1822429906542056
+     ],
+     "share_names_ai": 0.16822429906542055,
+     "ratio_ai_over_conventional": 1.2413793103448276,
+     "n_names_conventional": 29,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.3103448275862069,
+      "n": 29,
+      "k": 9
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.13793103448275862,
+      "n": 29,
+      "k": 4
+     }
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n_reach_with_body": 222,
+     "share_names_conventional": 0.1891891891891892,
+     "share_names_conventional_ci95": [
+      0.13963963963963963,
+      0.24324324324324326
+     ],
+     "share_names_ai": 0.13063063063063063,
+     "ratio_ai_over_conventional": 0.6904761904761905,
+     "n_names_conventional": 42,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.2619047619047619,
+      "n": 42,
+      "k": 11
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.16666666666666666,
+      "n": 42,
+      "k": 7
+     }
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n_reach_with_body": 203,
+     "share_names_conventional": 0.11330049261083744,
+     "share_names_conventional_ci95": [
+      0.07389162561576355,
+      0.15763546798029557
+     ],
+     "share_names_ai": 0.06403940886699508,
+     "ratio_ai_over_conventional": 0.5652173913043478,
+     "n_names_conventional": 23,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.30434782608695654,
+      "n": 23,
+      "k": 7
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.21739130434782608,
+      "n": 23,
+      "k": 5
+     }
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n_reach_with_body": 163,
+     "share_names_conventional": 0.32515337423312884,
+     "share_names_conventional_ci95": [
+      0.25153374233128833,
+      0.3987730061349693
+     ],
+     "share_names_ai": 0.12883435582822086,
+     "ratio_ai_over_conventional": 0.39622641509433965,
+     "n_names_conventional": 53,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.1320754716981132,
+      "n": 53,
+      "k": 7
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.11320754716981132,
+      "n": 53,
+      "k": 6
+     }
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n_reach_with_body": 151,
+     "share_names_conventional": 0.41721854304635764,
+     "share_names_conventional_ci95": [
+      0.33112582781456956,
+      0.4966887417218543
+     ],
+     "share_names_ai": 0.11258278145695365,
+     "ratio_ai_over_conventional": 0.2698412698412698,
+     "n_names_conventional": 63,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.14285714285714285,
+      "n": 63,
+      "k": 9
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.14285714285714285,
+      "n": 63,
+      "k": 9
+     }
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n_reach_with_body": 138,
+     "share_names_conventional": 0.21739130434782608,
+     "share_names_conventional_ci95": [
+      0.15217391304347827,
+      0.2898550724637681
+     ],
+     "share_names_ai": 0.10869565217391304,
+     "ratio_ai_over_conventional": 0.5,
+     "n_names_conventional": 30,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.16666666666666666,
+      "n": 30,
+      "k": 5
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.16666666666666666,
+      "n": 30,
+      "k": 5
+     }
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n_reach_with_body": 202,
+     "share_names_conventional": 0.2079207920792079,
+     "share_names_conventional_ci95": [
+      0.15346534653465346,
+      0.26732673267326734
+     ],
+     "share_names_ai": 0.12376237623762376,
+     "ratio_ai_over_conventional": 0.5952380952380952,
+     "n_names_conventional": 42,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.2857142857142857,
+      "n": 42,
+      "k": 12
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.23809523809523808,
+      "n": 42,
+      "k": 10
+     }
+    }
+   },
+   "pooled_tier": {
+    "high": {
+     "n": 1021,
+     "share_names_conventional": {
+      "rate": 0.356513222331048,
+      "n": 1021,
+      "k": 364
+     },
+     "share_names_ai": {
+      "rate": 0.33594515181194906,
+      "n": 1021,
+      "k": 343
+     },
+     "ratio_ai_over_conventional": 0.9423076923076923,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.6401098901098901,
+      "n": 364,
+      "k": 233
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.5357142857142857,
+      "n": 364,
+      "k": 195
+     }
+    },
+    "mid": {
+     "n": 1112,
+     "share_names_conventional": {
+      "rate": 0.18974820143884893,
+      "n": 1112,
+      "k": 211
+     },
+     "share_names_ai": {
+      "rate": 0.17715827338129497,
+      "n": 1112,
+      "k": 197
+     },
+     "ratio_ai_over_conventional": 0.933649289099526,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.44549763033175355,
+      "n": 211,
+      "k": 94
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.14691943127962084,
+      "n": 211,
+      "k": 31
+     }
+    },
+    "low": {
+     "n": 857,
+     "share_names_conventional": {
+      "rate": 0.24620770128354727,
+      "n": 857,
+      "k": 211
+     },
+     "share_names_ai": {
+      "rate": 0.10618436406067679,
+      "n": 857,
+      "k": 91
+     },
+     "ratio_ai_over_conventional": 0.4312796208530806,
+     "among_conventional_namers_share_names_ai": {
+      "rate": 0.1895734597156398,
+      "n": 211,
+      "k": 40
+     },
+     "among_conventional_namers_share_blocks_ai": {
+      "rate": 0.16587677725118483,
+      "n": 211,
+      "k": 35
+     }
+    }
+   },
+   "cluster_conventional_high_vs_low": {
+    "gap_unweighted": 0.0970261434694965,
+    "p_unweighted": 0.19047619047619047,
+    "gap_weighted": 0.11030552104750072,
+    "p_weighted": 0.15079365079365079,
+    "n_splits": 126
+   },
+   "cluster_conventional_high_vs_rest": {
+    "gap_unweighted": 0.13109195824628272,
+    "p_unweighted": 0.03196803196803197,
+    "gap_weighted": 0.1421912314727443,
+    "p_weighted": 0.02097902097902098,
+    "n_splits": 1001
+   },
+   "spearman_conventional": {
+    "rho": 0.3284625821728677,
+    "perm_p": 0.2488,
+    "n_perm": 20000
+   },
+   "cluster_ai_naming_given_conventional_high_vs_low": {
+    "gap_unweighted": 0.3965759639002898,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.4505364303942503,
+    "p_weighted": 0.015873015873015872,
+    "n_splits": 126
+   },
+   "per_conventional_bot_share_by_tier": {
+    "high": {
+     "googlebot": {
+      "n": 141,
+      "share": 0.13809990205680706
+     },
+     "bingbot": {
+      "n": 99,
+      "share": 0.0969637610186092
+     },
+     "yandex": {
+      "n": 90,
+      "share": 0.0881488736532811
+     },
+     "baiduspider": {
+      "n": 76,
+      "share": 0.07443682664054849
+     },
+     "duckduckbot": {
+      "n": 38,
+      "share": 0.03721841332027424
+     },
+     "slurp": {
+      "n": 53,
+      "share": 0.05190989226248776
+     },
+     "applebot": {
+      "n": 60,
+      "share": 0.058765915768854066
+     },
+     "ahrefsbot": {
+      "n": 127,
+      "share": 0.12438785504407443
+     },
+     "semrushbot": {
+      "n": 120,
+      "share": 0.11753183153770813
+     },
+     "mj12bot": {
+      "n": 101,
+      "share": 0.098922624877571
+     },
+     "dotbot": {
+      "n": 98,
+      "share": 0.09598432908912831
+     },
+     "petalbot": {
+      "n": 110,
+      "share": 0.10773751224289912
+     },
+     "facebookexternalhit": {
+      "n": 51,
+      "share": 0.04995102840352596
+     },
+     "twitterbot": {
+      "n": 61,
+      "share": 0.059745347698334964
+     },
+     "linkedinbot": {
+      "n": 33,
+      "share": 0.03232125367286973
+     }
+    },
+    "mid": {
+     "googlebot": {
+      "n": 97,
+      "share": 0.08723021582733813
+     },
+     "bingbot": {
+      "n": 56,
+      "share": 0.050359712230215826
+     },
+     "yandex": {
+      "n": 24,
+      "share": 0.02158273381294964
+     },
+     "baiduspider": {
+      "n": 18,
+      "share": 0.01618705035971223
+     },
+     "duckduckbot": {
+      "n": 3,
+      "share": 0.002697841726618705
+     },
+     "slurp": {
+      "n": 15,
+      "share": 0.013489208633093525
+     },
+     "applebot": {
+      "n": 18,
+      "share": 0.01618705035971223
+     },
+     "ahrefsbot": {
+      "n": 40,
+      "share": 0.03597122302158273
+     },
+     "semrushbot": {
+      "n": 31,
+      "share": 0.02787769784172662
+     },
+     "mj12bot": {
+      "n": 25,
+      "share": 0.022482014388489208
+     },
+     "dotbot": {
+      "n": 15,
+      "share": 0.013489208633093525
+     },
+     "petalbot": {
+      "n": 15,
+      "share": 0.013489208633093525
+     },
+     "facebookexternalhit": {
+      "n": 86,
+      "share": 0.07733812949640288
+     },
+     "twitterbot": {
+      "n": 41,
+      "share": 0.0368705035971223
+     },
+     "linkedinbot": {
+      "n": 24,
+      "share": 0.02158273381294964
+     }
+    },
+    "low": {
+     "googlebot": {
+      "n": 105,
+      "share": 0.12252042007001167
+     },
+     "bingbot": {
+      "n": 26,
+      "share": 0.030338389731621937
+     },
+     "yandex": {
+      "n": 25,
+      "share": 0.029171528588098017
+     },
+     "baiduspider": {
+      "n": 16,
+      "share": 0.01866977829638273
+     },
+     "duckduckbot": {
+      "n": 1,
+      "share": 0.0011668611435239206
+     },
+     "slurp": {
+      "n": 17,
+      "share": 0.019836639439906652
+     },
+     "applebot": {
+      "n": 45,
+      "share": 0.052508751458576426
+     },
+     "ahrefsbot": {
+      "n": 75,
+      "share": 0.08751458576429405
+     },
+     "semrushbot": {
+      "n": 83,
+      "share": 0.09684947491248541
+     },
+     "mj12bot": {
+      "n": 81,
+      "share": 0.09451575262543757
+     },
+     "dotbot": {
+      "n": 71,
+      "share": 0.08284714119019837
+     },
+     "petalbot": {
+      "n": 24,
+      "share": 0.028004667444574097
+     },
+     "facebookexternalhit": {
+      "n": 12,
+      "share": 0.014002333722287048
+     },
+     "twitterbot": {
+      "n": 9,
+      "share": 0.010501750291715286
+     },
+     "linkedinbot": {
+      "n": 2,
+      "share": 0.002333722287047841
+     }
+    }
+   }
+  },
+  "stock_defaults": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "n": 272,
+     "wordpress_default": 0.014705882352941176,
+     "blogger_default": 0.0661764705882353,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.003676470588235294,
+     "empty": 0.003676470588235294,
+     "html": 0.022058823529411766,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.08455882352941177,
+     "share_trivial_or_nonpolicy": 0.025735294117647058,
+     "share_non_default": 0.8897058823529411,
+     "optout_within_non_default": {
+      "rate": 0.49173553719008267,
+      "n": 242,
+      "k": 119
+     },
+     "optout_within_stock_default": {
+      "rate": 0.34782608695652173,
+      "n": 23,
+      "k": 8
+     },
+     "optout_overall": {
+      "rate": 0.46691176470588236,
+      "n": 272,
+      "k": 127
+     }
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "n": 254,
+     "wordpress_default": 0.027559055118110236,
+     "blogger_default": 0.023622047244094488,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.003937007874015748,
+     "html": 0.11023622047244094,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.051181102362204724,
+     "share_trivial_or_nonpolicy": 0.1141732283464567,
+     "share_non_default": 0.8346456692913385,
+     "optout_within_non_default": {
+      "rate": 0.35377358490566035,
+      "n": 212,
+      "k": 75
+     },
+     "optout_within_stock_default": {
+      "rate": 0.07692307692307693,
+      "n": 13,
+      "k": 1
+     },
+     "optout_overall": {
+      "rate": 0.2992125984251969,
+      "n": 254,
+      "k": 76
+     }
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "n": 226,
+     "wordpress_default": 0.07964601769911504,
+     "blogger_default": 0.05752212389380531,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.0,
+     "html": 0.10619469026548672,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.13716814159292035,
+     "share_trivial_or_nonpolicy": 0.10619469026548672,
+     "share_non_default": 0.7566371681415929,
+     "optout_within_non_default": {
+      "rate": 0.15789473684210525,
+      "n": 171,
+      "k": 27
+     },
+     "optout_within_stock_default": {
+      "rate": 0.06451612903225806,
+      "n": 31,
+      "k": 2
+     },
+     "optout_overall": {
+      "rate": 0.12831858407079647,
+      "n": 226,
+      "k": 29
+     }
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "n": 269,
+     "wordpress_default": 0.01486988847583643,
+     "blogger_default": 0.06319702602230483,
+     "shopify": 0.0,
+     "wix": 0.01486988847583643,
+     "squarespace": 0.0,
+     "empty": 0.0037174721189591076,
+     "html": 0.09665427509293681,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.09293680297397769,
+     "share_trivial_or_nonpolicy": 0.10037174721189591,
+     "share_non_default": 0.8066914498141264,
+     "optout_within_non_default": {
+      "rate": 0.2626728110599078,
+      "n": 217,
+      "k": 57
+     },
+     "optout_within_stock_default": {
+      "rate": 0.2,
+      "n": 25,
+      "k": 5
+     },
+     "optout_overall": {
+      "rate": 0.23048327137546468,
+      "n": 269,
+      "k": 62
+     }
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "n": 225,
+     "wordpress_default": 0.044444444444444446,
+     "blogger_default": 0.1288888888888889,
+     "shopify": 0.0,
+     "wix": 0.0044444444444444444,
+     "squarespace": 0.0,
+     "empty": 0.017777777777777778,
+     "html": 0.04888888888888889,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.17777777777777778,
+     "share_trivial_or_nonpolicy": 0.06222222222222222,
+     "share_non_default": 0.76,
+     "optout_within_non_default": {
+      "rate": 0.17543859649122806,
+      "n": 171,
+      "k": 30
+     },
+     "optout_within_stock_default": {
+      "rate": 0.025,
+      "n": 40,
+      "k": 1
+     },
+     "optout_overall": {
+      "rate": 0.13777777777777778,
+      "n": 225,
+      "k": 31
+     }
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "n": 238,
+     "wordpress_default": 0.07142857142857142,
+     "blogger_default": 0.058823529411764705,
+     "shopify": 0.0,
+     "wix": 0.008403361344537815,
+     "squarespace": 0.0,
+     "empty": 0.008403361344537815,
+     "html": 0.05042016806722689,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.13865546218487396,
+     "share_trivial_or_nonpolicy": 0.058823529411764705,
+     "share_non_default": 0.8109243697478992,
+     "optout_within_non_default": {
+      "rate": 0.13471502590673576,
+      "n": 193,
+      "k": 26
+     },
+     "optout_within_stock_default": {
+      "rate": 0.0,
+      "n": 33,
+      "k": 0
+     },
+     "optout_overall": {
+      "rate": 0.1092436974789916,
+      "n": 238,
+      "k": 26
+     }
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "n": 213,
+     "wordpress_default": 0.07042253521126761,
+     "blogger_default": 0.028169014084507043,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.0,
+     "html": 0.06103286384976526,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.09859154929577464,
+     "share_trivial_or_nonpolicy": 0.06103286384976526,
+     "share_non_default": 0.8403755868544601,
+     "optout_within_non_default": {
+      "rate": 0.09497206703910614,
+      "n": 179,
+      "k": 17
+     },
+     "optout_within_stock_default": {
+      "rate": 0.0,
+      "n": 21,
+      "k": 0
+     },
+     "optout_overall": {
+      "rate": 0.07981220657276995,
+      "n": 213,
+      "k": 17
+     }
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "n": 214,
+     "wordpress_default": 0.0794392523364486,
+     "blogger_default": 0.014018691588785047,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.009345794392523364,
+     "html": 0.14953271028037382,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.09345794392523364,
+     "share_trivial_or_nonpolicy": 0.1588785046728972,
+     "share_non_default": 0.7476635514018691,
+     "optout_within_non_default": {
+      "rate": 0.16875,
+      "n": 160,
+      "k": 27
+     },
+     "optout_within_stock_default": {
+      "rate": 0.0,
+      "n": 20,
+      "k": 0
+     },
+     "optout_overall": {
+      "rate": 0.1261682242990654,
+      "n": 214,
+      "k": 27
+     }
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "n": 222,
+     "wordpress_default": 0.15765765765765766,
+     "blogger_default": 0.04504504504504504,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.0045045045045045045,
+     "html": 0.07657657657657657,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.20270270270270271,
+     "share_trivial_or_nonpolicy": 0.07657657657657657,
+     "share_non_default": 0.7252252252252253,
+     "optout_within_non_default": {
+      "rate": 0.13664596273291926,
+      "n": 161,
+      "k": 22
+     },
+     "optout_within_stock_default": {
+      "rate": 0.022222222222222223,
+      "n": 45,
+      "k": 1
+     },
+     "optout_overall": {
+      "rate": 0.1036036036036036,
+      "n": 222,
+      "k": 23
+     }
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "n": 203,
+     "wordpress_default": 0.08374384236453201,
+     "blogger_default": 0.27586206896551724,
+     "shopify": 0.0,
+     "wix": 0.0049261083743842365,
+     "squarespace": 0.0,
+     "empty": 0.014778325123152709,
+     "html": 0.06403940886699508,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.3645320197044335,
+     "share_trivial_or_nonpolicy": 0.07881773399014778,
+     "share_non_default": 0.5615763546798029,
+     "optout_within_non_default": {
+      "rate": 0.09649122807017543,
+      "n": 114,
+      "k": 11
+     },
+     "optout_within_stock_default": {
+      "rate": 0.0,
+      "n": 74,
+      "k": 0
+     },
+     "optout_overall": {
+      "rate": 0.054187192118226604,
+      "n": 203,
+      "k": 11
+     }
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "n": 163,
+     "wordpress_default": 0.0736196319018405,
+     "blogger_default": 0.25766871165644173,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.006134969325153374,
+     "html": 0.0736196319018405,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.3312883435582822,
+     "share_trivial_or_nonpolicy": 0.07975460122699386,
+     "share_non_default": 0.588957055214724,
+     "optout_within_non_default": {
+      "rate": 0.16666666666666666,
+      "n": 96,
+      "k": 16
+     },
+     "optout_within_stock_default": {
+      "rate": 0.07407407407407407,
+      "n": 54,
+      "k": 4
+     },
+     "optout_overall": {
+      "rate": 0.12269938650306748,
+      "n": 163,
+      "k": 20
+     }
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "n": 151,
+     "wordpress_default": 0.059602649006622516,
+     "blogger_default": 0.2119205298013245,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.013245033112582781,
+     "html": 0.059602649006622516,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.271523178807947,
+     "share_trivial_or_nonpolicy": 0.059602649006622516,
+     "share_non_default": 0.6688741721854304,
+     "optout_within_non_default": {
+      "rate": 0.13861386138613863,
+      "n": 101,
+      "k": 14
+     },
+     "optout_within_stock_default": {
+      "rate": 0.07317073170731707,
+      "n": 41,
+      "k": 3
+     },
+     "optout_overall": {
+      "rate": 0.11258278145695365,
+      "n": 151,
+      "k": 17
+     }
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "n": 138,
+     "wordpress_default": 0.050724637681159424,
+     "blogger_default": 0.014492753623188406,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0,
+     "empty": 0.0,
+     "html": 0.14492753623188406,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.06521739130434782,
+     "share_trivial_or_nonpolicy": 0.14492753623188406,
+     "share_non_default": 0.7898550724637681,
+     "optout_within_non_default": {
+      "rate": 0.13761467889908258,
+      "n": 109,
+      "k": 15
+     },
+     "optout_within_stock_default": {
+      "rate": 0.0,
+      "n": 9,
+      "k": 0
+     },
+     "optout_overall": {
+      "rate": 0.10869565217391304,
+      "n": 138,
+      "k": 15
+     }
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "n": 202,
+     "wordpress_default": 0.07920792079207921,
+     "blogger_default": 0.10396039603960396,
+     "shopify": 0.0,
+     "wix": 0.0,
+     "squarespace": 0.0049504950495049506,
+     "empty": 0.01485148514851485,
+     "html": 0.07425742574257425,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.18811881188118812,
+     "share_trivial_or_nonpolicy": 0.08415841584158416,
+     "share_non_default": 0.7277227722772277,
+     "optout_within_non_default": {
+      "rate": 0.12244897959183673,
+      "n": 147,
+      "k": 18
+     },
+     "optout_within_stock_default": {
+      "rate": 0.07894736842105263,
+      "n": 38,
+      "k": 3
+     },
+     "optout_overall": {
+      "rate": 0.10396039603960396,
+      "n": 202,
+      "k": 21
+     }
+    }
+   },
+   "pooled_tier": {
+    "high": {
+     "n": 1021,
+     "wordpress_default": 0.03232125367286973,
+     "blogger_default": 0.05288932419196866,
+     "shopify": 0.0,
+     "wix": 0.0039177277179236044,
+     "squarespace": 0.0009794319294809011,
+     "empty": 0.002938295788442703,
+     "html": 0.08227228207639568,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.0901077375122429,
+     "share_trivial_or_nonpolicy": 0.08521057786483839,
+     "share_non_default": 0.8246816846229187,
+     "optout_within_non_default": {
+      "rate": 0.33016627078384797,
+      "n": 842,
+      "k": 278
+     },
+     "optout_within_stock_default": {
+      "rate": 0.17391304347826086,
+      "n": 92,
+      "k": 16
+     },
+     "naming_within_non_default": {
+      "rate": 0.37648456057007124,
+      "n": 842,
+      "k": 317
+     }
+    },
+    "mid": {
+     "n": 1112,
+     "wordpress_default": 0.08453237410071943,
+     "blogger_default": 0.05575539568345324,
+     "shopify": 0.0,
+     "wix": 0.002697841726618705,
+     "squarespace": 0.0,
+     "empty": 0.008093525179856115,
+     "html": 0.0764388489208633,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.14298561151079137,
+     "share_trivial_or_nonpolicy": 0.08273381294964029,
+     "share_non_default": 0.7769784172661871,
+     "optout_within_non_default": {
+      "rate": 0.1412037037037037,
+      "n": 864,
+      "k": 122
+     },
+     "optout_within_stock_default": {
+      "rate": 0.012578616352201259,
+      "n": 159,
+      "k": 2
+     },
+     "naming_within_non_default": {
+      "rate": 0.22337962962962962,
+      "n": 864,
+      "k": 193
+     }
+    },
+    "low": {
+     "n": 857,
+     "wordpress_default": 0.07117852975495916,
+     "blogger_default": 0.17852975495915985,
+     "shopify": 0.0,
+     "wix": 0.0011668611435239206,
+     "squarespace": 0.0011668611435239206,
+     "empty": 0.010501750291715286,
+     "html": 0.08051341890315053,
+     "allow_all_only": 0.0,
+     "share_stock_cms_default": 0.25204200700116686,
+     "share_trivial_or_nonpolicy": 0.08751458576429405,
+     "share_non_default": 0.661610268378063,
+     "optout_within_non_default": {
+      "rate": 0.13051146384479717,
+      "n": 567,
+      "k": 74
+     },
+     "optout_within_stock_default": {
+      "rate": 0.046296296296296294,
+      "n": 216,
+      "k": 10
+     },
+     "naming_within_non_default": {
+      "rate": 0.14285714285714285,
+      "n": 567,
+      "k": 81
+     }
+    }
+   },
+   "cluster_optout_within_non_default_high_vs_low": {
+    "gap_unweighted": 0.18415208457665902,
+    "p_unweighted": 0.015873015873015872,
+    "gap_weighted": 0.1931665428326467,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   }
+  },
+  "sophistication": {
+   "per_lang": {
+    "eng_Latn": {
+     "n": 272,
+     "median_directive_lines": 43.0,
+     "mean_directive_lines": 81.0,
+     "median_ua_groups": 6.5,
+     "mean_ua_groups": 24.46323529411765,
+     "median_body_len": 1263.0,
+     "mean_body_len": 2777.216911764706,
+     "median_named_agents": 6.0,
+     "mean_named_agents": 25.647058823529413,
+     "share_body_truncated_20k": 0.03676470588235294,
+     "tier": "high"
+    },
+    "deu_Latn": {
+     "n": 254,
+     "median_directive_lines": 33.5,
+     "mean_directive_lines": 68.66929133858268,
+     "median_ua_groups": 3.0,
+     "mean_ua_groups": 22.54724409448819,
+     "median_body_len": 1531.5,
+     "mean_body_len": 3788.3582677165355,
+     "median_named_agents": 3.0,
+     "mean_named_agents": 22.881889763779526,
+     "share_body_truncated_20k": 0.10236220472440945,
+     "tier": "high"
+    },
+    "jpn_Jpan": {
+     "n": 226,
+     "median_directive_lines": 9.0,
+     "mean_directive_lines": 38.52654867256637,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 7.035398230088496,
+     "median_body_len": 241.5,
+     "mean_body_len": 2565.278761061947,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 7.128318584070796,
+     "share_body_truncated_20k": 0.09734513274336283,
+     "tier": "high"
+    },
+    "fra_Latn": {
+     "n": 269,
+     "median_directive_lines": 21,
+     "mean_directive_lines": 96.50557620817844,
+     "median_ua_groups": 2,
+     "mean_ua_groups": 36.12267657992565,
+     "median_body_len": 1043,
+     "mean_body_len": 3991.022304832714,
+     "median_named_agents": 1,
+     "mean_named_agents": 36.13382899628253,
+     "share_body_truncated_20k": 0.09665427509293681,
+     "tier": "high"
+    },
+    "ind_Latn": {
+     "n": 225,
+     "median_directive_lines": 14,
+     "mean_directive_lines": 34.39555555555555,
+     "median_ua_groups": 1,
+     "mean_ua_groups": 10.822222222222223,
+     "median_body_len": 642,
+     "mean_body_len": 1618.4622222222222,
+     "median_named_agents": 1,
+     "mean_named_agents": 10.506666666666666,
+     "share_body_truncated_20k": 0.035555555555555556,
+     "tier": "mid"
+    },
+    "tur_Latn": {
+     "n": 238,
+     "median_directive_lines": 13.0,
+     "mean_directive_lines": 33.5,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 7.407563025210084,
+     "median_body_len": 395.5,
+     "mean_body_len": 1585.3991596638655,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 7.222689075630252,
+     "share_body_truncated_20k": 0.029411764705882353,
+     "tier": "mid"
+    },
+    "vie_Latn": {
+     "n": 213,
+     "median_directive_lines": 8,
+     "mean_directive_lines": 21.690140845070424,
+     "median_ua_groups": 1,
+     "mean_ua_groups": 3.788732394366197,
+     "median_body_len": 238,
+     "mean_body_len": 1597.9530516431926,
+     "median_named_agents": 1,
+     "mean_named_agents": 3.6666666666666665,
+     "share_body_truncated_20k": 0.046948356807511735,
+     "tier": "mid"
+    },
+    "tha_Thai": {
+     "n": 214,
+     "median_directive_lines": 9.0,
+     "mean_directive_lines": 31.378504672897197,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 5.042056074766355,
+     "median_body_len": 309.5,
+     "mean_body_len": 3533.3271028037384,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 5.0233644859813085,
+     "share_body_truncated_20k": 0.1308411214953271,
+     "tier": "mid"
+    },
+    "azj_Latn": {
+     "n": 222,
+     "median_directive_lines": 6.0,
+     "mean_directive_lines": 23.13063063063063,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 4.486486486486487,
+     "median_body_len": 202.5,
+     "mean_body_len": 1668.2792792792793,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 4.297297297297297,
+     "share_body_truncated_20k": 0.05405405405405406,
+     "tier": "mid"
+    },
+    "swh_Latn": {
+     "n": 203,
+     "median_directive_lines": 7,
+     "mean_directive_lines": 26.689655172413794,
+     "median_ua_groups": 1,
+     "mean_ua_groups": 5.098522167487685,
+     "median_body_len": 168,
+     "mean_body_len": 1561.9014778325122,
+     "median_named_agents": 1,
+     "mean_named_agents": 4.955665024630542,
+     "share_body_truncated_20k": 0.03940886699507389,
+     "tier": "low"
+    },
+    "sun_Latn": {
+     "n": 163,
+     "median_directive_lines": 14,
+     "mean_directive_lines": 28.828220858895705,
+     "median_ua_groups": 2,
+     "mean_ua_groups": 4.07361963190184,
+     "median_body_len": 648,
+     "mean_body_len": 2315.2515337423315,
+     "median_named_agents": 2,
+     "mean_named_agents": 3.9754601226993866,
+     "share_body_truncated_20k": 0.049079754601226995,
+     "tier": "low"
+    },
+    "yor_Latn": {
+     "n": 151,
+     "median_directive_lines": 15,
+     "mean_directive_lines": 29.483443708609272,
+     "median_ua_groups": 1,
+     "mean_ua_groups": 8.847682119205299,
+     "median_body_len": 308,
+     "mean_body_len": 1457.3774834437086,
+     "median_named_agents": 1,
+     "mean_named_agents": 8.867549668874172,
+     "share_body_truncated_20k": 0.019867549668874173,
+     "tier": "low"
+    },
+    "uig_Arab": {
+     "n": 138,
+     "median_directive_lines": 9.0,
+     "mean_directive_lines": 18.6231884057971,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 4.304347826086956,
+     "median_body_len": 272.0,
+     "mean_body_len": 1699.623188405797,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 4.115942028985507,
+     "share_body_truncated_20k": 0.036231884057971016,
+     "tier": "low"
+    },
+    "gle_Latn": {
+     "n": 202,
+     "median_directive_lines": 14.0,
+     "mean_directive_lines": 38.02970297029703,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 3.876237623762376,
+     "median_body_len": 490.0,
+     "mean_body_len": 2477.30198019802,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 3.767326732673267,
+     "share_body_truncated_20k": 0.054455445544554455,
+     "tier": "low"
+    }
+   },
+   "pooled_tier": {
+    "high": {
+     "n": 1021,
+     "median_directive_lines": 22,
+     "mean_directive_lines": 72.61606268364349,
+     "median_ua_groups": 2,
+     "mean_ua_groups": 23.200783545543583,
+     "median_body_len": 963,
+     "mean_body_len": 3301.6493633692457,
+     "median_named_agents": 2,
+     "mean_named_agents": 23.622918707149854,
+     "share_body_truncated_20k": 0.08227228207639568
+    },
+    "mid": {
+     "n": 1112,
+     "median_directive_lines": 9.5,
+     "mean_directive_lines": 28.940647482014388,
+     "median_ua_groups": 1.0,
+     "mean_ua_groups": 6.366906474820144,
+     "median_body_len": 322.5,
+     "mean_body_len": 1985.9109712230215,
+     "median_named_agents": 1.0,
+     "mean_named_agents": 6.198741007194244,
+     "share_body_truncated_20k": 0.05845323741007194
+    },
+    "low": {
+     "n": 857,
+     "median_directive_lines": 9,
+     "mean_directive_lines": 28.962660443407234,
+     "median_ua_groups": 1,
+     "mean_ua_groups": 5.148191365227538,
+     "median_body_len": 272,
+     "mean_body_len": 1924.712952158693,
+     "median_named_agents": 1,
+     "mean_named_agents": 5.043173862310385,
+     "share_body_truncated_20k": 0.040840140023337225
+    }
+   }
+  },
+  "allow_only_ai_naming": {
+   "per_lang": {
+    "eng_Latn": {
+     "tier": "high",
+     "rate": 0.025735294117647058,
+     "n": 272,
+     "k": 7
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "rate": 0.10236220472440945,
+     "n": 254,
+     "k": 26
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "rate": 0.030973451327433628,
+     "n": 226,
+     "k": 7
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "rate": 0.03345724907063197,
+     "n": 269,
+     "k": 9
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "rate": 0.13777777777777778,
+     "n": 225,
+     "k": 31
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "rate": 0.10504201680672269,
+     "n": 238,
+     "k": 25
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "rate": 0.009389671361502348,
+     "n": 213,
+     "k": 2
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "rate": 0.04205607476635514,
+     "n": 214,
+     "k": 9
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "rate": 0.02702702702702703,
+     "n": 222,
+     "k": 6
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "rate": 0.009852216748768473,
+     "n": 203,
+     "k": 2
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "rate": 0.006134969325153374,
+     "n": 163,
+     "k": 1
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "rate": 0.0,
+     "n": 151,
+     "k": 0
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "rate": 0.0,
+     "n": 138,
+     "k": 0
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "rate": 0.019801980198019802,
+     "n": 202,
+     "k": 4
+    }
+   },
+   "pooled_tier": {
+    "high": {
+     "rate": 0.047992164544564155,
+     "n": 1021,
+     "k": 49
+    },
+    "mid": {
+     "rate": 0.06564748201438848,
+     "n": 1112,
+     "k": 73
+    },
+    "low": {
+     "rate": 0.008168028004667444,
+     "n": 857,
+     "k": 7
+    }
+   },
+   "cluster_high_vs_low": {
+    "gap_unweighted": 0.04097421655564219,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.03982413653989671,
+    "p_weighted": 0.007936507936507936,
+    "n_splits": 126
+   }
+  },
+  "site_type": {
+   "tld_class": {
+    "high": {
+     "ccTLD": {
+      "rate": 0.31712962962962965,
+      "n": 432,
+      "k": 137,
+      "names_ai": 0.39351851851851855,
+      "small_n": false
+     },
+     "gTLD": {
+      "rate": 0.28431372549019607,
+      "n": 510,
+      "k": 145,
+      "names_ai": 0.30980392156862746,
+      "small_n": false
+     },
+     "org_edu_gov": {
+      "rate": 0.1518987341772152,
+      "n": 79,
+      "k": 12,
+      "names_ai": 0.189873417721519,
+      "small_n": false
+     }
+    },
+    "mid": {
+     "ccTLD": {
+      "rate": 0.12158054711246201,
+      "n": 329,
+      "k": 40,
+      "names_ai": 0.16717325227963525,
+      "small_n": false
+     },
+     "gTLD": {
+      "rate": 0.1074964639321075,
+      "n": 707,
+      "k": 76,
+      "names_ai": 0.18811881188118812,
+      "small_n": false
+     },
+     "org_edu_gov": {
+      "rate": 0.10526315789473684,
+      "n": 76,
+      "k": 8,
+      "names_ai": 0.11842105263157894,
+      "small_n": false
+     }
+    },
+    "low": {
+     "ccTLD": {
+      "rate": 0.13259668508287292,
+      "n": 181,
+      "k": 24,
+      "names_ai": 0.14917127071823205,
+      "small_n": false
+     },
+     "gTLD": {
+      "rate": 0.09830508474576272,
+      "n": 590,
+      "k": 58,
+      "names_ai": 0.10508474576271186,
+      "small_n": false
+     },
+     "org_edu_gov": {
+      "rate": 0.023255813953488372,
+      "n": 86,
+      "k": 2,
+      "names_ai": 0.023255813953488372,
+      "small_n": false
+     }
+    }
+   },
+   "keyword_class": {
+    "high": {
+     "news": {
+      "rate": 0.29411764705882354,
+      "n": 34,
+      "k": 10,
+      "names_ai": 0.3235294117647059,
+      "small_n": false
+     },
+     "blog": {
+      "rate": 0.014285714285714285,
+      "n": 70,
+      "k": 1,
+      "names_ai": 0.014285714285714285,
+      "small_n": false
+     },
+     "gov": {
+      "rate": 0.13333333333333333,
+      "n": 15,
+      "k": 2,
+      "names_ai": 0.13333333333333333,
+      "small_n": true
+     },
+     "edu": {
+      "rate": 0.0,
+      "n": 15,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "shop": {
+      "rate": 0.42857142857142855,
+      "n": 7,
+      "k": 3,
+      "names_ai": 0.42857142857142855,
+      "small_n": true
+     },
+     "wiki": {
+      "rate": 0.0,
+      "n": 7,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "forum": {
+      "rate": 0.26666666666666666,
+      "n": 15,
+      "k": 4,
+      "names_ai": 0.26666666666666666,
+      "small_n": true
+     },
+     "_none": {
+      "rate": 0.3190255220417633,
+      "n": 862,
+      "k": 275,
+      "names_ai": 0.37470997679814383,
+      "small_n": false
+     }
+    },
+    "mid": {
+     "news": {
+      "rate": 0.072,
+      "n": 125,
+      "k": 9,
+      "names_ai": 0.384,
+      "small_n": false
+     },
+     "blog": {
+      "rate": 0.017857142857142856,
+      "n": 56,
+      "k": 1,
+      "names_ai": 0.017857142857142856,
+      "small_n": false
+     },
+     "gov": {
+      "rate": 0.0,
+      "n": 10,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "edu": {
+      "rate": 0.06666666666666667,
+      "n": 15,
+      "k": 1,
+      "names_ai": 0.06666666666666667,
+      "small_n": true
+     },
+     "shop": {
+      "rate": 0.0,
+      "n": 7,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "wiki": {
+      "rate": 0.0,
+      "n": 7,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "forum": {
+      "rate": 0.5,
+      "n": 4,
+      "k": 2,
+      "names_ai": 0.5,
+      "small_n": true
+     },
+     "_none": {
+      "rate": 0.12430011198208286,
+      "n": 893,
+      "k": 111,
+      "names_ai": 0.1623740201567749,
+      "small_n": false
+     }
+    },
+    "low": {
+     "news": {
+      "rate": 0.22580645161290322,
+      "n": 31,
+      "k": 7,
+      "names_ai": 0.22580645161290322,
+      "small_n": false
+     },
+     "blog": {
+      "rate": 0.0,
+      "n": 97,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": false
+     },
+     "gov": {
+      "rate": 0.045454545454545456,
+      "n": 22,
+      "k": 1,
+      "names_ai": 0.045454545454545456,
+      "small_n": false
+     },
+     "edu": {
+      "rate": 0.14285714285714285,
+      "n": 14,
+      "k": 2,
+      "names_ai": 0.14285714285714285,
+      "small_n": true
+     },
+     "shop": {
+      "rate": null,
+      "n": 0,
+      "k": 0,
+      "names_ai": null,
+      "small_n": true
+     },
+     "wiki": {
+      "rate": 0.0,
+      "n": 13,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "forum": {
+      "rate": 0.0,
+      "n": 3,
+      "k": 0,
+      "names_ai": 0.0,
+      "small_n": true
+     },
+     "_none": {
+      "rate": 0.10866372980910426,
+      "n": 681,
+      "k": 74,
+      "names_ai": 0.11894273127753303,
+      "small_n": false
+     }
+    }
+   },
+   "platform_hosted": {
+    "high": {
+     "rate": 0.0,
+     "n": 21,
+     "k": 0,
+     "names_ai": 0.0,
+     "small_n": false,
+     "by_platform": {
+      "blogspot.": {
+       "rate": 0.0,
+       "n": 16,
+       "k": 0
+      },
+      "wordpress.com": {
+       "rate": 0.0,
+       "n": 5,
+       "k": 0
+      },
+      "github.io": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "wixsite": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "medium.com": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "substack": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "tumblr": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "weebly": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      }
+     },
+     "non_platform_optout": {
+      "rate": 0.294,
+      "n": 1000,
+      "k": 294
+     }
+    },
+    "mid": {
+     "rate": 0.0,
+     "n": 86,
+     "k": 0,
+     "names_ai": 0.0,
+     "small_n": false,
+     "by_platform": {
+      "blogspot.": {
+       "rate": 0.0,
+       "n": 43,
+       "k": 0
+      },
+      "wordpress.com": {
+       "rate": 0.0,
+       "n": 43,
+       "k": 0
+      },
+      "github.io": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "wixsite": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "medium.com": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "substack": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "tumblr": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "weebly": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      }
+     },
+     "non_platform_optout": {
+      "rate": 0.12085769980506822,
+      "n": 1026,
+      "k": 124
+     }
+    },
+    "low": {
+     "rate": 0.009708737864077669,
+     "n": 103,
+     "k": 1,
+     "names_ai": 0.009708737864077669,
+     "small_n": false,
+     "by_platform": {
+      "blogspot.": {
+       "rate": 0.0,
+       "n": 83,
+       "k": 0
+      },
+      "wordpress.com": {
+       "rate": 0.0,
+       "n": 19,
+       "k": 0
+      },
+      "github.io": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "wixsite": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "medium.com": {
+       "rate": 1.0,
+       "n": 1,
+       "k": 1
+      },
+      "substack": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "tumblr": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      },
+      "weebly": {
+       "rate": null,
+       "n": 0,
+       "k": 0
+      }
+     },
+     "non_platform_optout": {
+      "rate": 0.11007957559681697,
+      "n": 754,
+      "k": 83
+     }
+    }
+   },
+   "per_lang_tld_class": {
+    "eng_Latn": {
+     "tier": "high",
+     "ccTLD": {
+      "rate": 0.7391304347826086,
+      "n": 23,
+      "k": 17
+     },
+     "gTLD": {
+      "rate": 0.4722222222222222,
+      "n": 216,
+      "k": 102
+     },
+     "org_edu_gov": {
+      "rate": 0.24242424242424243,
+      "n": 33,
+      "k": 8
+     }
+    },
+    "deu_Latn": {
+     "tier": "high",
+     "ccTLD": {
+      "rate": 0.33505154639175255,
+      "n": 194,
+      "k": 65
+     },
+     "gTLD": {
+      "rate": 0.2,
+      "n": 50,
+      "k": 10
+     },
+     "org_edu_gov": {
+      "rate": 0.1,
+      "n": 10,
+      "k": 1
+     }
+    },
+    "jpn_Jpan": {
+     "tier": "high",
+     "ccTLD": {
+      "rate": 0.16666666666666666,
+      "n": 114,
+      "k": 19
+     },
+     "gTLD": {
+      "rate": 0.09615384615384616,
+      "n": 104,
+      "k": 10
+     },
+     "org_edu_gov": {
+      "rate": 0.0,
+      "n": 8,
+      "k": 0
+     }
+    },
+    "fra_Latn": {
+     "tier": "high",
+     "ccTLD": {
+      "rate": 0.3564356435643564,
+      "n": 101,
+      "k": 36
+     },
+     "gTLD": {
+      "rate": 0.16428571428571428,
+      "n": 140,
+      "k": 23
+     },
+     "org_edu_gov": {
+      "rate": 0.10714285714285714,
+      "n": 28,
+      "k": 3
+     }
+    },
+    "ind_Latn": {
+     "tier": "mid",
+     "ccTLD": {
+      "rate": 0.3,
+      "n": 20,
+      "k": 6
+     },
+     "gTLD": {
+      "rate": 0.116751269035533,
+      "n": 197,
+      "k": 23
+     },
+     "org_edu_gov": {
+      "rate": 0.25,
+      "n": 8,
+      "k": 2
+     }
+    },
+    "tur_Latn": {
+     "tier": "mid",
+     "ccTLD": {
+      "rate": 0.18867924528301888,
+      "n": 53,
+      "k": 10
+     },
+     "gTLD": {
+      "rate": 0.08670520231213873,
+      "n": 173,
+      "k": 15
+     },
+     "org_edu_gov": {
+      "rate": 0.08333333333333333,
+      "n": 12,
+      "k": 1
+     }
+    },
+    "vie_Latn": {
+     "tier": "mid",
+     "ccTLD": {
+      "rate": 0.058823529411764705,
+      "n": 102,
+      "k": 6
+     },
+     "gTLD": {
+      "rate": 0.10204081632653061,
+      "n": 98,
+      "k": 10
+     },
+     "org_edu_gov": {
+      "rate": 0.07692307692307693,
+      "n": 13,
+      "k": 1
+     }
+    },
+    "tha_Thai": {
+     "tier": "mid",
+     "ccTLD": {
+      "rate": 0.09523809523809523,
+      "n": 21,
+      "k": 2
+     },
+     "gTLD": {
+      "rate": 0.12643678160919541,
+      "n": 174,
+      "k": 22
+     },
+     "org_edu_gov": {
+      "rate": 0.15789473684210525,
+      "n": 19,
+      "k": 3
+     }
+    },
+    "azj_Latn": {
+     "tier": "mid",
+     "ccTLD": {
+      "rate": 0.12030075187969924,
+      "n": 133,
+      "k": 16
+     },
+     "gTLD": {
+      "rate": 0.09230769230769231,
+      "n": 65,
+      "k": 6
+     },
+     "org_edu_gov": {
+      "rate": 0.041666666666666664,
+      "n": 24,
+      "k": 1
+     }
+    },
+    "swh_Latn": {
+     "tier": "low",
+     "ccTLD": {
+      "rate": 0.11363636363636363,
+      "n": 44,
+      "k": 5
+     },
+     "gTLD": {
+      "rate": 0.046153846153846156,
+      "n": 130,
+      "k": 6
+     },
+     "org_edu_gov": {
+      "rate": 0.0,
+      "n": 29,
+      "k": 0
+     }
+    },
+    "sun_Latn": {
+     "tier": "low",
+     "ccTLD": {
+      "rate": 0.1111111111111111,
+      "n": 18,
+      "k": 2
+     },
+     "gTLD": {
+      "rate": 0.1323529411764706,
+      "n": 136,
+      "k": 18
+     },
+     "org_edu_gov": {
+      "rate": 0.0,
+      "n": 9,
+      "k": 0
+     }
+    },
+    "yor_Latn": {
+     "tier": "low",
+     "ccTLD": {
+      "rate": 0.08333333333333333,
+      "n": 12,
+      "k": 1
+     },
+     "gTLD": {
+      "rate": 0.12096774193548387,
+      "n": 124,
+      "k": 15
+     },
+     "org_edu_gov": {
+      "rate": 0.06666666666666667,
+      "n": 15,
+      "k": 1
+     }
+    },
+    "uig_Arab": {
+     "tier": "low",
+     "ccTLD": {
+      "rate": 0.12,
+      "n": 25,
+      "k": 3
+     },
+     "gTLD": {
+      "rate": 0.1134020618556701,
+      "n": 97,
+      "k": 11
+     },
+     "org_edu_gov": {
+      "rate": 0.0625,
+      "n": 16,
+      "k": 1
+     }
+    },
+    "gle_Latn": {
+     "tier": "low",
+     "ccTLD": {
+      "rate": 0.15853658536585366,
+      "n": 82,
+      "k": 13
+     },
+     "gTLD": {
+      "rate": 0.07766990291262135,
+      "n": 103,
+      "k": 8
+     },
+     "org_edu_gov": {
+      "rate": 0.0,
+      "n": 17,
+      "k": 0
+     }
+    }
+   },
+   "notes": "Keyword classes are non-exclusive substring matches on the hostname; 'tin' (Vietnamese 'tin tuc' = news) also matches 'bulletin', 'tintin', etc. TLD classes: org/edu/gov/mil/int or a public 2nd-level (ac./edu./gov./go./gob./gouv./or.) => org_edu_gov; 2-letter TLD not in the generic-use set (io,co,me,tv,cc,ai,ly,fm,to,gg,sh,st,am,is,ws) => ccTLD; else gTLD."
+  }
+ },
+ "G_validation": {
+  "n_labelled": 60,
+  "agree_from_stored_field": 58,
+  "agree_recomputed_from_labels": 58,
+  "n_disagreements": 2,
+  "disagreements": [
+   {
+    "id": 9,
+    "domain": "nli.ie",
+    "manual_block": true,
+    "parser_block": false,
+    "confidence": "medium",
+    "note": "Bytespider 'Disallow: *' (not literal '/'); malformed/non-standard token, but by intent (comment 'Evil Robots') and Google-style wildcard parsing this is block-all -- judgment call, flag for review",
+    "agree_field": false
+   },
+   {
+    "id": 31,
+    "domain": "pleinelune.niceboard.com",
+    "manual_block": false,
+    "parser_block": true,
+    "confidence": "low",
+    "note": "TRUNCATED at 6000 chars mid old-style scraper blocklist; no target AI agent visible before cutoff but cannot rule out a trailing AI-bot block (cf. linux-community.de pattern elsewhere in sample)",
+    "agree_field": false
+   }
+  ],
+  "stored_agree_field_inconsistent_rows": [],
+  "accuracy": 0.9666666666666667,
+  "confidence_counts": {
+   "high": 55,
+   "medium": 1,
+   "low": 4
+  }
+ },
+ "H_reachability_failures": {
+  "per_lang": {
+   "eng_Latn": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 272,
+    "reach_rate": 0.7771428571428571,
+    "n_fail": 78,
+    "counts": {
+     "http_403": 26,
+     "dns": 14,
+     "timeout": 14,
+     "http_404": 11,
+     "http_4xx_other": 6,
+     "http_5xx": 4,
+     "conn": 2,
+     "other": 1
+    },
+    "shares_of_failures": {
+     "http_403": 0.3333333333333333,
+     "dns": 0.1794871794871795,
+     "timeout": 0.1794871794871795,
+     "http_404": 0.14102564102564102,
+     "http_4xx_other": 0.07692307692307693,
+     "http_5xx": 0.05128205128205128,
+     "conn": 0.02564102564102564,
+     "other": 0.01282051282051282
+    },
+    "shares_of_sampled": {
+     "http_403": 0.07428571428571429,
+     "dns": 0.04,
+     "timeout": 0.04,
+     "http_404": 0.03142857142857143,
+     "http_4xx_other": 0.017142857142857144,
+     "http_5xx": 0.011428571428571429,
+     "conn": 0.005714285714285714,
+     "other": 0.002857142857142857
+    },
+    "fine_counts": {
+     "http_403": 26,
+     "dns": 14,
+     "timeout": 14,
+     "http_404": 11,
+     "http_429": 3,
+     "http_418": 2,
+     "http_503": 2,
+     "conn": 2,
+     "http_401": 1,
+     "http_500": 1,
+     "http_521": 1,
+     "other": 1
+    },
+    "http_404_count": 11,
+    "http_403_count": 26,
+    "dns_count": 14,
+    "reach_rate_counting_404_as_observed": 0.8085714285714286
+   },
+   "deu_Latn": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 254,
+    "reach_rate": 0.7257142857142858,
+    "n_fail": 96,
+    "counts": {
+     "http_404": 33,
+     "dns": 24,
+     "http_403": 12,
+     "timeout": 11,
+     "http_4xx_other": 7,
+     "http_410": 4,
+     "http_2xx_non200": 2,
+     "http_5xx": 1,
+     "ssl": 1,
+     "conn": 1
+    },
+    "shares_of_failures": {
+     "http_404": 0.34375,
+     "dns": 0.25,
+     "http_403": 0.125,
+     "timeout": 0.11458333333333333,
+     "http_4xx_other": 0.07291666666666667,
+     "http_410": 0.041666666666666664,
+     "http_2xx_non200": 0.020833333333333332,
+     "http_5xx": 0.010416666666666666,
+     "ssl": 0.010416666666666666,
+     "conn": 0.010416666666666666
+    },
+    "shares_of_sampled": {
+     "http_404": 0.09428571428571429,
+     "dns": 0.06857142857142857,
+     "http_403": 0.03428571428571429,
+     "timeout": 0.03142857142857143,
+     "http_4xx_other": 0.02,
+     "http_410": 0.011428571428571429,
+     "http_2xx_non200": 0.005714285714285714,
+     "http_5xx": 0.002857142857142857,
+     "ssl": 0.002857142857142857,
+     "conn": 0.002857142857142857
+    },
+    "fine_counts": {
+     "http_404": 33,
+     "dns": 24,
+     "http_403": 12,
+     "timeout": 11,
+     "http_410": 4,
+     "http_400": 3,
+     "http_202": 2,
+     "http_401": 2,
+     "http_406": 1,
+     "http_445": 1,
+     "http_503": 1,
+     "ssl": 1,
+     "conn": 1
+    },
+    "http_404_count": 33,
+    "http_403_count": 12,
+    "dns_count": 24,
+    "reach_rate_counting_404_as_observed": 0.8314285714285714
+   },
+   "jpn_Jpan": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 226,
+    "reach_rate": 0.6457142857142857,
+    "n_fail": 124,
+    "counts": {
+     "dns": 57,
+     "http_404": 35,
+     "http_403": 13,
+     "http_4xx_other": 6,
+     "timeout": 6,
+     "http_5xx": 2,
+     "ssl": 2,
+     "http_410": 2,
+     "other": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.4596774193548387,
+     "http_404": 0.28225806451612906,
+     "http_403": 0.10483870967741936,
+     "http_4xx_other": 0.04838709677419355,
+     "timeout": 0.04838709677419355,
+     "http_5xx": 0.016129032258064516,
+     "ssl": 0.016129032258064516,
+     "http_410": 0.016129032258064516,
+     "other": 0.008064516129032258
+    },
+    "shares_of_sampled": {
+     "dns": 0.16285714285714287,
+     "http_404": 0.1,
+     "http_403": 0.037142857142857144,
+     "http_4xx_other": 0.017142857142857144,
+     "timeout": 0.017142857142857144,
+     "http_5xx": 0.005714285714285714,
+     "ssl": 0.005714285714285714,
+     "http_410": 0.005714285714285714,
+     "other": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 57,
+     "http_404": 35,
+     "http_403": 13,
+     "timeout": 6,
+     "http_405": 3,
+     "ssl": 2,
+     "http_410": 2,
+     "http_400": 1,
+     "http_500": 1,
+     "other": 1,
+     "http_418": 1,
+     "http_444": 1,
+     "http_503": 1
+    },
+    "http_404_count": 35,
+    "http_403_count": 13,
+    "dns_count": 57,
+    "reach_rate_counting_404_as_observed": 0.7514285714285714
+   },
+   "fra_Latn": {
+    "tier": "high",
+    "n_sampled": 350,
+    "n_reach": 269,
+    "reach_rate": 0.7685714285714286,
+    "n_fail": 81,
+    "counts": {
+     "dns": 30,
+     "http_404": 17,
+     "http_403": 14,
+     "timeout": 11,
+     "http_4xx_other": 6,
+     "ssl": 2,
+     "conn": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.37037037037037035,
+     "http_404": 0.20987654320987653,
+     "http_403": 0.1728395061728395,
+     "timeout": 0.13580246913580246,
+     "http_4xx_other": 0.07407407407407407,
+     "ssl": 0.024691358024691357,
+     "conn": 0.012345679012345678
+    },
+    "shares_of_sampled": {
+     "dns": 0.08571428571428572,
+     "http_404": 0.04857142857142857,
+     "http_403": 0.04,
+     "timeout": 0.03142857142857143,
+     "http_4xx_other": 0.017142857142857144,
+     "ssl": 0.005714285714285714,
+     "conn": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 30,
+     "http_404": 17,
+     "http_403": 14,
+     "timeout": 11,
+     "ssl": 2,
+     "http_429": 2,
+     "http_401": 1,
+     "http_406": 1,
+     "conn": 1,
+     "http_400": 1,
+     "http_451": 1
+    },
+    "http_404_count": 17,
+    "http_403_count": 14,
+    "dns_count": 30,
+    "reach_rate_counting_404_as_observed": 0.8171428571428572
+   },
+   "ind_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 225,
+    "reach_rate": 0.6428571428571429,
+    "n_fail": 125,
+    "counts": {
+     "dns": 66,
+     "http_404": 18,
+     "http_403": 16,
+     "timeout": 9,
+     "http_5xx": 4,
+     "http_410": 3,
+     "other": 3,
+     "http_4xx_other": 2,
+     "ssl": 2,
+     "conn": 1,
+     "http_3xx": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.528,
+     "http_404": 0.144,
+     "http_403": 0.128,
+     "timeout": 0.072,
+     "http_5xx": 0.032,
+     "http_410": 0.024,
+     "other": 0.024,
+     "http_4xx_other": 0.016,
+     "ssl": 0.016,
+     "conn": 0.008,
+     "http_3xx": 0.008
+    },
+    "shares_of_sampled": {
+     "dns": 0.18857142857142858,
+     "http_404": 0.05142857142857143,
+     "http_403": 0.045714285714285714,
+     "timeout": 0.025714285714285714,
+     "http_5xx": 0.011428571428571429,
+     "http_410": 0.008571428571428572,
+     "other": 0.008571428571428572,
+     "http_4xx_other": 0.005714285714285714,
+     "ssl": 0.005714285714285714,
+     "conn": 0.002857142857142857,
+     "http_3xx": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 66,
+     "http_404": 18,
+     "http_403": 16,
+     "timeout": 9,
+     "http_410": 3,
+     "other": 3,
+     "http_521": 2,
+     "ssl": 2,
+     "http_406": 1,
+     "http_444": 1,
+     "http_500": 1,
+     "http_526": 1,
+     "conn": 1,
+     "http_301": 1
+    },
+    "http_404_count": 18,
+    "http_403_count": 16,
+    "dns_count": 66,
+    "reach_rate_counting_404_as_observed": 0.7028571428571428
+   },
+   "tur_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 238,
+    "reach_rate": 0.68,
+    "n_fail": 112,
+    "counts": {
+     "dns": 56,
+     "http_404": 16,
+     "http_403": 14,
+     "timeout": 13,
+     "http_5xx": 4,
+     "http_4xx_other": 4,
+     "ssl": 2,
+     "conn": 1,
+     "http_410": 1,
+     "http_3xx": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.5,
+     "http_404": 0.14285714285714285,
+     "http_403": 0.125,
+     "timeout": 0.11607142857142858,
+     "http_5xx": 0.03571428571428571,
+     "http_4xx_other": 0.03571428571428571,
+     "ssl": 0.017857142857142856,
+     "conn": 0.008928571428571428,
+     "http_410": 0.008928571428571428,
+     "http_3xx": 0.008928571428571428
+    },
+    "shares_of_sampled": {
+     "dns": 0.16,
+     "http_404": 0.045714285714285714,
+     "http_403": 0.04,
+     "timeout": 0.037142857142857144,
+     "http_5xx": 0.011428571428571429,
+     "http_4xx_other": 0.011428571428571429,
+     "ssl": 0.005714285714285714,
+     "conn": 0.002857142857142857,
+     "http_410": 0.002857142857142857,
+     "http_3xx": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 56,
+     "http_404": 16,
+     "http_403": 14,
+     "timeout": 13,
+     "http_445": 3,
+     "ssl": 2,
+     "http_526": 1,
+     "conn": 1,
+     "http_530": 1,
+     "http_500": 1,
+     "http_525": 1,
+     "http_410": 1,
+     "http_429": 1,
+     "http_301": 1
+    },
+    "http_404_count": 16,
+    "http_403_count": 14,
+    "dns_count": 56,
+    "reach_rate_counting_404_as_observed": 0.7285714285714285
+   },
+   "vie_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 213,
+    "reach_rate": 0.6085714285714285,
+    "n_fail": 137,
+    "counts": {
+     "dns": 76,
+     "http_403": 18,
+     "http_404": 17,
+     "timeout": 14,
+     "conn": 3,
+     "ssl": 3,
+     "http_5xx": 2,
+     "http_4xx_other": 2,
+     "http_410": 1,
+     "other": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.5547445255474452,
+     "http_403": 0.13138686131386862,
+     "http_404": 0.12408759124087591,
+     "timeout": 0.10218978102189781,
+     "conn": 0.021897810218978103,
+     "ssl": 0.021897810218978103,
+     "http_5xx": 0.014598540145985401,
+     "http_4xx_other": 0.014598540145985401,
+     "http_410": 0.0072992700729927005,
+     "other": 0.0072992700729927005
+    },
+    "shares_of_sampled": {
+     "dns": 0.21714285714285714,
+     "http_403": 0.05142857142857143,
+     "http_404": 0.04857142857142857,
+     "timeout": 0.04,
+     "conn": 0.008571428571428572,
+     "ssl": 0.008571428571428572,
+     "http_5xx": 0.005714285714285714,
+     "http_4xx_other": 0.005714285714285714,
+     "http_410": 0.002857142857142857,
+     "other": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 76,
+     "http_403": 18,
+     "http_404": 17,
+     "timeout": 14,
+     "conn": 3,
+     "ssl": 3,
+     "http_502": 1,
+     "http_409": 1,
+     "http_410": 1,
+     "other": 1,
+     "http_503": 1,
+     "http_444": 1
+    },
+    "http_404_count": 17,
+    "http_403_count": 18,
+    "dns_count": 76,
+    "reach_rate_counting_404_as_observed": 0.66
+   },
+   "tha_Thai": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 214,
+    "reach_rate": 0.6114285714285714,
+    "n_fail": 136,
+    "counts": {
+     "dns": 78,
+     "http_404": 19,
+     "http_403": 16,
+     "timeout": 12,
+     "ssl": 5,
+     "http_4xx_other": 2,
+     "http_5xx": 2,
+     "conn": 1,
+     "other": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.5735294117647058,
+     "http_404": 0.13970588235294118,
+     "http_403": 0.11764705882352941,
+     "timeout": 0.08823529411764706,
+     "ssl": 0.03676470588235294,
+     "http_4xx_other": 0.014705882352941176,
+     "http_5xx": 0.014705882352941176,
+     "conn": 0.007352941176470588,
+     "other": 0.007352941176470588
+    },
+    "shares_of_sampled": {
+     "dns": 0.22285714285714286,
+     "http_404": 0.054285714285714284,
+     "http_403": 0.045714285714285714,
+     "timeout": 0.03428571428571429,
+     "ssl": 0.014285714285714285,
+     "http_4xx_other": 0.005714285714285714,
+     "http_5xx": 0.005714285714285714,
+     "conn": 0.002857142857142857,
+     "other": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 78,
+     "http_404": 19,
+     "http_403": 16,
+     "timeout": 12,
+     "ssl": 5,
+     "http_405": 1,
+     "http_502": 1,
+     "http_444": 1,
+     "conn": 1,
+     "http_521": 1,
+     "other": 1
+    },
+    "http_404_count": 19,
+    "http_403_count": 16,
+    "dns_count": 78,
+    "reach_rate_counting_404_as_observed": 0.6657142857142857
+   },
+   "azj_Latn": {
+    "tier": "mid",
+    "n_sampled": 350,
+    "n_reach": 222,
+    "reach_rate": 0.6342857142857142,
+    "n_fail": 128,
+    "counts": {
+     "dns": 72,
+     "http_403": 17,
+     "http_404": 16,
+     "timeout": 5,
+     "conn": 4,
+     "ssl": 4,
+     "http_5xx": 3,
+     "http_4xx_other": 2,
+     "http_410": 2,
+     "http_2xx_non200": 2,
+     "other": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.5625,
+     "http_403": 0.1328125,
+     "http_404": 0.125,
+     "timeout": 0.0390625,
+     "conn": 0.03125,
+     "ssl": 0.03125,
+     "http_5xx": 0.0234375,
+     "http_4xx_other": 0.015625,
+     "http_410": 0.015625,
+     "http_2xx_non200": 0.015625,
+     "other": 0.0078125
+    },
+    "shares_of_sampled": {
+     "dns": 0.2057142857142857,
+     "http_403": 0.04857142857142857,
+     "http_404": 0.045714285714285714,
+     "timeout": 0.014285714285714285,
+     "conn": 0.011428571428571429,
+     "ssl": 0.011428571428571429,
+     "http_5xx": 0.008571428571428572,
+     "http_4xx_other": 0.005714285714285714,
+     "http_410": 0.005714285714285714,
+     "http_2xx_non200": 0.005714285714285714,
+     "other": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 72,
+     "http_403": 17,
+     "http_404": 16,
+     "timeout": 5,
+     "conn": 4,
+     "ssl": 4,
+     "http_400": 2,
+     "http_410": 2,
+     "http_202": 2,
+     "http_521": 1,
+     "http_500": 1,
+     "http_525": 1,
+     "other": 1
+    },
+    "http_404_count": 16,
+    "http_403_count": 17,
+    "dns_count": 72,
+    "reach_rate_counting_404_as_observed": 0.6857142857142857
+   },
+   "swh_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 203,
+    "reach_rate": 0.58,
+    "n_fail": 147,
+    "counts": {
+     "dns": 81,
+     "http_404": 30,
+     "http_403": 11,
+     "timeout": 11,
+     "ssl": 4,
+     "http_4xx_other": 2,
+     "http_410": 2,
+     "conn": 2,
+     "http_5xx": 2,
+     "other": 2
+    },
+    "shares_of_failures": {
+     "dns": 0.5510204081632653,
+     "http_404": 0.20408163265306123,
+     "http_403": 0.07482993197278912,
+     "timeout": 0.07482993197278912,
+     "ssl": 0.027210884353741496,
+     "http_4xx_other": 0.013605442176870748,
+     "http_410": 0.013605442176870748,
+     "conn": 0.013605442176870748,
+     "http_5xx": 0.013605442176870748,
+     "other": 0.013605442176870748
+    },
+    "shares_of_sampled": {
+     "dns": 0.23142857142857143,
+     "http_404": 0.08571428571428572,
+     "http_403": 0.03142857142857143,
+     "timeout": 0.03142857142857143,
+     "ssl": 0.011428571428571429,
+     "http_4xx_other": 0.005714285714285714,
+     "http_410": 0.005714285714285714,
+     "conn": 0.005714285714285714,
+     "http_5xx": 0.005714285714285714,
+     "other": 0.005714285714285714
+    },
+    "fine_counts": {
+     "dns": 81,
+     "http_404": 30,
+     "http_403": 11,
+     "timeout": 11,
+     "ssl": 4,
+     "http_410": 2,
+     "conn": 2,
+     "http_500": 2,
+     "other": 2,
+     "http_429": 1,
+     "http_406": 1
+    },
+    "http_404_count": 30,
+    "http_403_count": 11,
+    "dns_count": 81,
+    "reach_rate_counting_404_as_observed": 0.6714285714285714
+   },
+   "sun_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 163,
+    "reach_rate": 0.4657142857142857,
+    "n_fail": 187,
+    "counts": {
+     "dns": 107,
+     "http_404": 31,
+     "http_403": 23,
+     "timeout": 11,
+     "http_5xx": 5,
+     "http_4xx_other": 3,
+     "ssl": 3,
+     "http_2xx_non200": 2,
+     "http_410": 1,
+     "other": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.5721925133689839,
+     "http_404": 0.1657754010695187,
+     "http_403": 0.12299465240641712,
+     "timeout": 0.058823529411764705,
+     "http_5xx": 0.026737967914438502,
+     "http_4xx_other": 0.016042780748663103,
+     "ssl": 0.016042780748663103,
+     "http_2xx_non200": 0.0106951871657754,
+     "http_410": 0.0053475935828877,
+     "other": 0.0053475935828877
+    },
+    "shares_of_sampled": {
+     "dns": 0.3057142857142857,
+     "http_404": 0.08857142857142856,
+     "http_403": 0.06571428571428571,
+     "timeout": 0.03142857142857143,
+     "http_5xx": 0.014285714285714285,
+     "http_4xx_other": 0.008571428571428572,
+     "ssl": 0.008571428571428572,
+     "http_2xx_non200": 0.005714285714285714,
+     "http_410": 0.002857142857142857,
+     "other": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 107,
+     "http_404": 31,
+     "http_403": 23,
+     "timeout": 11,
+     "http_500": 4,
+     "ssl": 3,
+     "http_202": 2,
+     "http_530": 1,
+     "http_406": 1,
+     "http_410": 1,
+     "http_429": 1,
+     "http_445": 1,
+     "other": 1
+    },
+    "http_404_count": 31,
+    "http_403_count": 23,
+    "dns_count": 107,
+    "reach_rate_counting_404_as_observed": 0.5571428571428572
+   },
+   "yor_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 151,
+    "reach_rate": 0.43142857142857144,
+    "n_fail": 199,
+    "counts": {
+     "dns": 107,
+     "http_404": 41,
+     "http_403": 20,
+     "timeout": 15,
+     "http_5xx": 5,
+     "http_2xx_non200": 4,
+     "conn": 2,
+     "http_4xx_other": 2,
+     "ssl": 2,
+     "http_3xx": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.5376884422110553,
+     "http_404": 0.20603015075376885,
+     "http_403": 0.10050251256281408,
+     "timeout": 0.07537688442211055,
+     "http_5xx": 0.02512562814070352,
+     "http_2xx_non200": 0.020100502512562814,
+     "conn": 0.010050251256281407,
+     "http_4xx_other": 0.010050251256281407,
+     "ssl": 0.010050251256281407,
+     "http_3xx": 0.005025125628140704
+    },
+    "shares_of_sampled": {
+     "dns": 0.3057142857142857,
+     "http_404": 0.11714285714285715,
+     "http_403": 0.05714285714285714,
+     "timeout": 0.04285714285714286,
+     "http_5xx": 0.014285714285714285,
+     "http_2xx_non200": 0.011428571428571429,
+     "conn": 0.005714285714285714,
+     "http_4xx_other": 0.005714285714285714,
+     "ssl": 0.005714285714285714,
+     "http_3xx": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 107,
+     "http_404": 41,
+     "http_403": 20,
+     "timeout": 15,
+     "http_202": 4,
+     "http_500": 2,
+     "conn": 2,
+     "ssl": 2,
+     "http_521": 1,
+     "http_445": 1,
+     "http_301": 1,
+     "http_530": 1,
+     "http_409": 1,
+     "http_503": 1
+    },
+    "http_404_count": 41,
+    "http_403_count": 20,
+    "dns_count": 107,
+    "reach_rate_counting_404_as_observed": 0.5485714285714286
+   },
+   "uig_Arab": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 138,
+    "reach_rate": 0.3942857142857143,
+    "n_fail": 212,
+    "counts": {
+     "dns": 101,
+     "http_404": 63,
+     "timeout": 15,
+     "http_403": 12,
+     "conn": 8,
+     "ssl": 4,
+     "other": 3,
+     "http_5xx": 3,
+     "http_2xx_non200": 1,
+     "http_410": 1,
+     "http_3xx": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.47641509433962265,
+     "http_404": 0.2971698113207547,
+     "timeout": 0.07075471698113207,
+     "http_403": 0.05660377358490566,
+     "conn": 0.03773584905660377,
+     "ssl": 0.018867924528301886,
+     "other": 0.014150943396226415,
+     "http_5xx": 0.014150943396226415,
+     "http_2xx_non200": 0.0047169811320754715,
+     "http_410": 0.0047169811320754715,
+     "http_3xx": 0.0047169811320754715
+    },
+    "shares_of_sampled": {
+     "dns": 0.2885714285714286,
+     "http_404": 0.18,
+     "timeout": 0.04285714285714286,
+     "http_403": 0.03428571428571429,
+     "conn": 0.022857142857142857,
+     "ssl": 0.011428571428571429,
+     "other": 0.008571428571428572,
+     "http_5xx": 0.008571428571428572,
+     "http_2xx_non200": 0.002857142857142857,
+     "http_410": 0.002857142857142857,
+     "http_3xx": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 101,
+     "http_404": 63,
+     "timeout": 15,
+     "http_403": 12,
+     "conn": 8,
+     "ssl": 4,
+     "other": 3,
+     "http_202": 1,
+     "http_514": 1,
+     "http_500": 1,
+     "http_410": 1,
+     "http_308": 1,
+     "http_502": 1
+    },
+    "http_404_count": 63,
+    "http_403_count": 12,
+    "dns_count": 101,
+    "reach_rate_counting_404_as_observed": 0.5771428571428572
+   },
+   "gle_Latn": {
+    "tier": "low",
+    "n_sampled": 350,
+    "n_reach": 202,
+    "reach_rate": 0.5771428571428572,
+    "n_fail": 148,
+    "counts": {
+     "dns": 64,
+     "http_404": 43,
+     "timeout": 13,
+     "http_403": 12,
+     "http_2xx_non200": 9,
+     "http_4xx_other": 2,
+     "http_5xx": 2,
+     "http_410": 1,
+     "conn": 1,
+     "ssl": 1
+    },
+    "shares_of_failures": {
+     "dns": 0.43243243243243246,
+     "http_404": 0.2905405405405405,
+     "timeout": 0.08783783783783784,
+     "http_403": 0.08108108108108109,
+     "http_2xx_non200": 0.060810810810810814,
+     "http_4xx_other": 0.013513513513513514,
+     "http_5xx": 0.013513513513513514,
+     "http_410": 0.006756756756756757,
+     "conn": 0.006756756756756757,
+     "ssl": 0.006756756756756757
+    },
+    "shares_of_sampled": {
+     "dns": 0.18285714285714286,
+     "http_404": 0.12285714285714286,
+     "timeout": 0.037142857142857144,
+     "http_403": 0.03428571428571429,
+     "http_2xx_non200": 0.025714285714285714,
+     "http_4xx_other": 0.005714285714285714,
+     "http_5xx": 0.005714285714285714,
+     "http_410": 0.002857142857142857,
+     "conn": 0.002857142857142857,
+     "ssl": 0.002857142857142857
+    },
+    "fine_counts": {
+     "dns": 64,
+     "http_404": 43,
+     "timeout": 13,
+     "http_403": 12,
+     "http_202": 9,
+     "http_409": 1,
+     "http_410": 1,
+     "http_503": 1,
+     "http_521": 1,
+     "conn": 1,
+     "ssl": 1,
+     "http_429": 1
+    },
+    "http_404_count": 43,
+    "http_403_count": 12,
+    "dns_count": 64,
+    "reach_rate_counting_404_as_observed": 0.7028571428571428
+   }
+  },
+  "pooled_tier": {
+   "high": {
+    "n_sampled": 1400,
+    "n_fail": 379,
+    "counts": {
+     "dns": 125,
+     "http_404": 96,
+     "http_403": 65,
+     "timeout": 42,
+     "http_4xx_other": 25,
+     "http_5xx": 7,
+     "http_410": 6,
+     "ssl": 5,
+     "conn": 4,
+     "other": 2,
+     "http_2xx_non200": 2
+    },
+    "shares_of_failures": {
+     "dns": 0.32981530343007914,
+     "http_404": 0.2532981530343008,
+     "http_403": 0.17150395778364116,
+     "timeout": 0.11081794195250659,
+     "http_4xx_other": 0.06596306068601583,
+     "http_5xx": 0.018469656992084433,
+     "http_410": 0.0158311345646438,
+     "ssl": 0.013192612137203167,
+     "conn": 0.010554089709762533,
+     "other": 0.005277044854881266,
+     "http_2xx_non200": 0.005277044854881266
+    },
+    "shares_of_sampled": {
+     "dns": 0.08928571428571429,
+     "http_404": 0.06857142857142857,
+     "http_403": 0.04642857142857143,
+     "timeout": 0.03,
+     "http_4xx_other": 0.017857142857142856,
+     "http_5xx": 0.005,
+     "http_410": 0.004285714285714286,
+     "ssl": 0.0035714285714285713,
+     "conn": 0.002857142857142857,
+     "other": 0.0014285714285714286,
+     "http_2xx_non200": 0.0014285714285714286
+    },
+    "http_404_share_of_failures": 0.2532981530343008,
+    "http_404_share_of_sampled": 0.06857142857142857
+   },
+   "mid": {
+    "n_sampled": 1750,
+    "n_fail": 638,
+    "counts": {
+     "dns": 348,
+     "http_404": 86,
+     "http_403": 81,
+     "timeout": 53,
+     "ssl": 16,
+     "http_5xx": 15,
+     "http_4xx_other": 12,
+     "conn": 10,
+     "http_410": 7,
+     "other": 6,
+     "http_3xx": 2,
+     "http_2xx_non200": 2
+    },
+    "shares_of_failures": {
+     "dns": 0.5454545454545454,
+     "http_404": 0.13479623824451412,
+     "http_403": 0.12695924764890282,
+     "timeout": 0.08307210031347963,
+     "ssl": 0.025078369905956112,
+     "http_5xx": 0.023510971786833857,
+     "http_4xx_other": 0.018808777429467086,
+     "conn": 0.01567398119122257,
+     "http_410": 0.0109717868338558,
+     "other": 0.009404388714733543,
+     "http_3xx": 0.003134796238244514,
+     "http_2xx_non200": 0.003134796238244514
+    },
+    "shares_of_sampled": {
+     "dns": 0.19885714285714284,
+     "http_404": 0.04914285714285714,
+     "http_403": 0.046285714285714284,
+     "timeout": 0.030285714285714287,
+     "ssl": 0.009142857142857144,
+     "http_5xx": 0.008571428571428572,
+     "http_4xx_other": 0.006857142857142857,
+     "conn": 0.005714285714285714,
+     "http_410": 0.004,
+     "other": 0.0034285714285714284,
+     "http_3xx": 0.001142857142857143,
+     "http_2xx_non200": 0.001142857142857143
+    },
+    "http_404_share_of_failures": 0.13479623824451412,
+    "http_404_share_of_sampled": 0.04914285714285714
+   },
+   "low": {
+    "n_sampled": 1750,
+    "n_fail": 893,
+    "counts": {
+     "dns": 460,
+     "http_404": 208,
+     "http_403": 78,
+     "timeout": 65,
+     "http_5xx": 17,
+     "http_2xx_non200": 16,
+     "ssl": 14,
+     "conn": 13,
+     "http_4xx_other": 9,
+     "other": 6,
+     "http_410": 5,
+     "http_3xx": 2
+    },
+    "shares_of_failures": {
+     "dns": 0.5151175811870101,
+     "http_404": 0.23292273236282196,
+     "http_403": 0.08734602463605823,
+     "timeout": 0.07278835386338185,
+     "http_5xx": 0.019036954087346025,
+     "http_2xx_non200": 0.01791713325867861,
+     "ssl": 0.015677491601343786,
+     "conn": 0.014557670772676373,
+     "http_4xx_other": 0.010078387458006719,
+     "other": 0.006718924972004479,
+     "http_410": 0.005599104143337066,
+     "http_3xx": 0.0022396416573348264
+    },
+    "shares_of_sampled": {
+     "dns": 0.26285714285714284,
+     "http_404": 0.11885714285714286,
+     "http_403": 0.044571428571428574,
+     "timeout": 0.037142857142857144,
+     "http_5xx": 0.009714285714285713,
+     "http_2xx_non200": 0.009142857142857144,
+     "ssl": 0.008,
+     "conn": 0.0074285714285714285,
+     "http_4xx_other": 0.005142857142857143,
+     "other": 0.0034285714285714284,
+     "http_410": 0.002857142857142857,
+     "http_3xx": 0.001142857142857143
+    },
+    "http_404_share_of_failures": 0.23292273236282196,
+    "http_404_share_of_sampled": 0.11885714285714286
+   }
+  },
+  "totals": {
+   "n_sampled": 4900,
+   "n_reach": 2990,
+   "n_fail": 1910,
+   "counts": {
+    "dns": 933,
+    "http_404": 390,
+    "http_403": 224,
+    "timeout": 160,
+    "http_4xx_other": 46,
+    "http_5xx": 39,
+    "ssl": 35,
+    "conn": 27,
+    "http_2xx_non200": 20,
+    "http_410": 18,
+    "other": 14,
+    "http_3xx": 4
+   },
+   "fine_counts": {
+    "dns": 933,
+    "http_404": 390,
+    "http_403": 224,
+    "timeout": 160,
+    "ssl": 35,
+    "conn": 27,
+    "http_202": 20,
+    "http_410": 18,
+    "http_500": 14,
+    "other": 14,
+    "http_429": 9,
+    "http_503": 7,
+    "http_521": 7,
+    "http_400": 7,
+    "http_445": 6,
+    "http_406": 5,
+    "http_401": 4,
+    "http_405": 4,
+    "http_444": 4,
+    "http_418": 3,
+    "http_301": 3,
+    "http_530": 3,
+    "http_502": 3,
+    "http_409": 3,
+    "http_526": 2,
+    "http_525": 2,
+    "http_451": 1,
+    "http_514": 1,
+    "http_308": 1
+   }
+  },
+  "optout_with_404_in_denominator": {
+   "per_lang": {
+    "eng_Latn": 0.44876325088339225,
+    "deu_Latn": 0.2611683848797251,
+    "jpn_Jpan": 0.11026615969581749,
+    "fra_Latn": 0.21678321678321677,
+    "ind_Latn": 0.12601626016260162,
+    "tur_Latn": 0.10196078431372549,
+    "vie_Latn": 0.0735930735930736,
+    "tha_Thai": 0.11587982832618025,
+    "azj_Latn": 0.09583333333333334,
+    "swh_Latn": 0.04680851063829787,
+    "sun_Latn": 0.10256410256410256,
+    "yor_Latn": 0.08854166666666667,
+    "uig_Arab": 0.07425742574257425,
+    "gle_Latn": 0.08536585365853659
+   },
+   "tier_means": {
+    "high": 0.2592452530605379,
+    "mid": 0.10265665594578285,
+    "low": 0.0795075118540356
+   },
+   "cluster_high_vs_low": {
+    "gap_unweighted": 0.17973774120650232,
+    "p_unweighted": 0.007936507936507936,
+    "gap_weighted": 0.1877736423542283,
+    "p_weighted": 0.031746031746031744,
+    "n_splits": 126
+   },
+   "cluster_high_vs_rest": {
+    "gap_unweighted": 0.16816316916062868,
+    "p_unweighted": 0.002997002997002997,
+    "gap_weighted": 0.1738947058872881,
+    "p_weighted": 0.005994005994005994,
+    "n_splits": 1001
+   },
+   "spearman": {
+    "rho": 0.7617536480179272,
+    "perm_p": 0.00245,
+    "n_perm": 20000
+   },
+   "note": "analysis.py treats every non-200 as unreachable. A 404 is arguably an observed policy state (no robots.txt => no restrictions). This row puts 404/410 into the denominator as non-blocking."
+  },
+  "cluster_reach_rate_high_vs_low": {
+   "gap_unweighted": 0.23957142857142866,
+   "p_unweighted": 0.007936507936507936,
+   "gap_weighted": 0.23149154307304565,
+   "p_weighted": 0.007936507936507936,
+   "n_splits": 126
+  },
+  "cluster_dns_share_high_vs_low": {
+   "gap_unweighted": -0.17357142857142854,
+   "p_unweighted": 0.015873015873015872,
+   "gap_weighted": -0.1700526809969471,
+   "p_weighted": 0.015873015873015872,
+   "n_splits": 126
+  }
+ }
+}
