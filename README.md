@@ -2,7 +2,7 @@
 
 This repository contains the current paper and its reproducible analysis.
 
-Authors: Austin Cheng and Gary Zhang (equal contribution)  
+Austin Cheng and Gary Zhang (equal contribution)  
 William A. Shine Great Neck South High School
 
 The repository contains the archived robots.txt responses and census files, deterministic analysis, the figure generators used by the paper, ACL LaTeX sources, bibliography, reviewer response notes, and the compiled nine-page paper.
