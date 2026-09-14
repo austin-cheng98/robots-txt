@@ -1,11 +1,9 @@
 # Whose Robots.txt? Consent-Infrastructure Inequality Across the Languages of Web Corpora
 
-This repository contains the current paper and its reproducible analysis. It is based on the anonymized 38-file release at `https://anonymous.4open.science/r/consent-audit-release-CFBC/`, retaining that release's raw data and baseline analysis while adding the reviewer-driven manuscript, analysis, figure, author-metadata, and build updates needed for the paper.
+This repository contains the current paper and its reproducible analysis.
 
 Authors: Austin Cheng and Gary Zhang (equal contribution)  
 William A. Shine Great Neck South High School
-
-GitHub: https://github.com/austin-cheng98/robots-txt
 
 The repository contains the archived robots.txt responses and census files, deterministic analysis, the figure generators used by the paper, ACL LaTeX sources, bibliography, reviewer response notes, and the compiled nine-page paper.
 
