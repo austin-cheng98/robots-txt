@@ -24,7 +24,10 @@ William A. Shine Great Neck South High School \\
 \maketitle
 
 \begin{abstract}
+\begingroup
+\renewcommand{\nolinkurl}[1]{repository: \path{#1}}
 Website owners increasingly restrict AI crawlers through robots.txt and consent-respecting corpus builders honor these signals, but existing audits cover English-centric corpora and report no results stratified by the language served. We measure AI-crawler opt-out for 4,900 domains sampled from the FineWeb and FineWeb-2 subsets of fourteen languages across three resource tiers. The gradient is steep at the domain level, where our sampling design supports it: reachable high-tier domains block at 28.8\% against 11.2\% and 9.8\% for the mid and low tiers, and an exact permutation over the language partition puts the high--low gap at $p = 0.008$. It decomposes cleanly, since whether a robots.txt names any AI agent falls from 33.6\% to 10.6\% across tiers while blocking a named agent shows no tier ordering, and among files already curating a conventional-crawler list the share also naming an AI agent falls from 64.0\% to 19.0\%, which a diffusion account predicts and a maintenance-budget account does not. Under today's robots.txt applied retroactively to a corpus crawled earlier, design-weighted document mass behind a Common Crawl opt-out is 31.2\% for English, with tier means of 26.5\%, 8.9\%, and 10.7\% that put the low tier above the mid tier. Reachability follows the same slope, 78\% of English domains answering a request against 39\% for Uyghur. What differs across these fourteen subsets is recorded policy, and a consent-respecting rebuild would filter high-resource text more heavily than the rest. We release every fetched robots.txt, the derived rates, and the code.\footnote{\nolinkurl{https://github.com/austincheng98/robots-txt}}
+\endgroup
 \end{abstract}
 
 \section{Introduction}
