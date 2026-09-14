@@ -22,7 +22,6 @@ The analysis and figure build does not fetch live websites. The included `collec
 ## Requirements
 
 - Python 3 with `matplotlib` installed
--
 The analysis itself uses only the Python standard library; Matplotlib is needed for the figures. The ACL style and bibliography style are included locally, while the bibliography data and compiled manuscript are intentionally omitted.
 
 ## Important paths
