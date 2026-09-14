@@ -5,7 +5,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+D = os.path.join(ROOT, "data")
 a = json.load(open(f"{D}/analysis_v3.json"))
 
 NAME = {"eng_Latn": "English", "deu_Latn": "German", "fra_Latn": "French", "jpn_Jpan": "Japanese",
@@ -59,6 +60,6 @@ ax.axhline(len(langs) - n_high + 0.5, color="#bbbbbb", lw=0.5, ls=":")
 ax.axhline(len(langs) - n_high - n_mid + 0.5, color="#bbbbbb", lw=0.5, ls=":")
 
 fig.tight_layout(pad=0.3)
-out = os.path.join(os.path.dirname(D), "fig_gradient.pdf")
-fig.savefig("fig_gradient.pdf")
+out = os.path.join(ROOT, "figures", "fig_gradient.pdf")
+fig.savefig(out)
 print("saved")

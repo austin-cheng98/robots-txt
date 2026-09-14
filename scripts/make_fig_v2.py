@@ -5,8 +5,8 @@ Panel (b) answers reviewer requests for the conditional-on-naming denominators:
 it plots, per language, the share of AI-naming domains that issue a full block,
 with a bootstrap CI and the naming count n printed at the right margin.
 
-Run after analysis_revision.py:  python3 make_fig_v2.py
-Writes fig_gradient_v2.pdf next to this file.
+Run after analysis_revision.py:  python3 scripts/make_fig_v2.py
+Writes figures/fig_gradient_v2.pdf.
 """
 import json, os
 import matplotlib
@@ -14,9 +14,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-a = json.load(open(os.path.join(HERE, "data", "analysis_v3.json")))
-rev = json.load(open(os.path.join(HERE, "revision_results.json")))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+a = json.load(open(os.path.join(ROOT, "data", "analysis_v3.json")))
+rev = json.load(open(os.path.join(ROOT, "results", "revision_results.json")))
 cond = rev["E_conditional_on_naming"]["per_lang"]
 
 NAME = {"eng_Latn": "English", "deu_Latn": "German", "fra_Latn": "French", "jpn_Jpan": "Japanese",
@@ -85,6 +85,6 @@ for axis in (ax, bx):
     axis.axhline(len(langs) - 9 + 0.5, color="#bbbbbb", lw=0.5, ls=":")
 
 fig.tight_layout(pad=0.3)
-out = os.path.join(HERE, "fig_gradient_v2.pdf")
+out = os.path.join(ROOT, "figures", "fig_gradient_v2.pdf")
 fig.savefig(out, bbox_inches="tight")
 print("saved", out)

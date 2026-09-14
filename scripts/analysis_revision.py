@@ -3,8 +3,8 @@
 Revision analyses for "Whose Robots.txt? Consent-Infrastructure Inequality Across
 the Languages of Web Corpora" (WaC-13 submission 55).
 
-Regenerates revision_results.json deterministically:
-    python3 analysis_revision.py
+Regenerates results/revision_results.json deterministically:
+    python3 scripts/analysis_revision.py
 
 Conventions are inherited verbatim from repo/analysis.py and repo/collect.py:
   * reachable            := fetch status == 200
@@ -25,9 +25,9 @@ import json, gzip, math, os, random, re, sys
 from collections import Counter, defaultdict
 from itertools import combinations
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-D = os.path.join(HERE, "data")
-OUT = os.path.join(HERE, "revision_results.json")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+D = os.path.join(ROOT, "data")
+OUT = os.path.join(ROOT, "results", "revision_results.json")
 SEED = 20260811
 N_HEAD = 175
 CENSUS_CAP = 20000
@@ -870,7 +870,7 @@ mech["site_type"] = f5
 # =============================================================================
 # G. Validation recount
 # =============================================================================
-vl = json.load(open(os.path.join(HERE, "valid_labels.json")))
+vl = json.load(open(os.path.join(D, "valid_labels.json")))
 agree_field = sum(1 for x in vl if x.get("agree"))
 agree_recomputed = sum(1 for x in vl if bool(x["manual_block"]) == bool(x["parser_block"]))
 disagreements = [

@@ -16,9 +16,9 @@ fi
 BUILD_MPLCONFIGDIR="${TMPDIR:-/tmp}/consent-audit-mpl-cache"
 mkdir -p "$BUILD_MPLCONFIGDIR"
 
-python3 analysis_revision.py
-MPLCONFIGDIR="$BUILD_MPLCONFIGDIR" python3 make_fig_v2.py
-cp fig_gradient_v2.pdf paper/fig_gradient_v2.pdf
-MPLCONFIGDIR="$BUILD_MPLCONFIGDIR" python3 make_fig_estimands.py
+mkdir -p results figures
+python3 scripts/analysis_revision.py
+MPLCONFIGDIR="$BUILD_MPLCONFIGDIR" python3 scripts/make_fig_v2.py
+MPLCONFIGDIR="$BUILD_MPLCONFIGDIR" python3 scripts/make_fig_estimands.py
 
 echo "rebuilt analysis outputs and figure PDFs"

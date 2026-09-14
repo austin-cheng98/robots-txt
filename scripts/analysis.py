@@ -5,7 +5,8 @@ import json, gzip, random, math, os, re
 from collections import Counter, defaultdict
 from itertools import combinations
 
-D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+D = os.path.join(ROOT, "data")
 SEED = 20260811
 AI_AGENTS = ["gptbot", "chatgpt-user", "ccbot", "google-extended", "claudebot", "anthropic-ai",
              "claude-web", "perplexitybot", "bytespider", "cohere-ai", "applebot-extended",

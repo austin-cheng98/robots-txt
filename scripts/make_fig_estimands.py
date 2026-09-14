@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
 
-REPO = os.path.dirname(os.path.abspath(__file__))
-RESULTS_PATH = os.path.join(REPO, "revision_results.json")
-OUTPUT_PATH = os.path.join(REPO, "paper", "fig_estimands.pdf")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RESULTS_PATH = os.path.join(ROOT, "results", "revision_results.json")
+OUTPUT_PATH = os.path.join(ROOT, "figures", "fig_estimands.pdf")
 
 with open(RESULTS_PATH, encoding="utf-8") as handle:
     results = json.load(handle)
